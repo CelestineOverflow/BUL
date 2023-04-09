@@ -119,9 +119,9 @@ The frequency of the ECHO signal is around 45 Khz. However the frequency of the 
 > What is the accuracy calculated based on the measured data?
 ![accuracy](img\accuracy.png)
 > What is the resolution calculated based on the measured data?
-> ![resolution](img\resolution.png)
+> given that the resolution is the smallest difference between two values that can be measured, the resolution is calculated by taking the difference between the minimum and maximum values and dividing the result by the number of measurements. However it wasnt possible to calculate the resolution in this case because the lack of proper measuring tape. 
 > What is the quantization calculated based on the measured data?
-> ![quantization](img\quantization.png)
+> Same as  resolution we were not able to calculate the quantization because of the lack of proper measuring tape.
 ## Part 5: Analyze the influence of the environment
 
 > Modify the program on the Arduino to deliver the distance to the object in cm.
