@@ -109,4 +109,68 @@ The frequency of the ECHO signal is around 45 Khz. However the frequency of the 
 ## Part 3: Sensor Characterization
 
 > Setup the sensor with a measurement distance of 100 cm. Take 100 measurements. Create a histogram of the results and calculate the mean value. What does the distribution of measurement values look like?
+> Histogram of the results
+![Histogram](https://raw.githubusercontent.com/CelestineOverflow/BUL/main/lab-1/img/image6.png?token=GHSAT0AAAAAACASQEKFCXDJN4TDBDGZ5DQWZBSSQBQ)
+> Raw Data
+![Raw Data](https://raw.githubusercontent.com/CelestineOverflow/BUL/main/lab-1/img/image9.png?token=GHSAT0AAAAAACASQEKFOZB2ELJ3JZXMSLIEZBSSQ7A)
 
+## Part 4: Analyze accuracy / resolution / quantization
+
+> What is the accuracy calculated based on the measured data?
+[!Accuracy](https://raw.githubusercontent.com/CelestineOverflow/BUL/main/lab-1/img/image7.png?token=GHSAT0AAAAAACASQEKFJZQ3N4TDBDQZ5DQWZBSSQCA)
+> What is the resolution calculated based on the measured data?
+> What is the quantization calculated based on the measured data?
+
+## Part 5: Analyze the influence of the environment
+
+> Modify the program on the Arduino to deliver the distance to the object in cm.
+
+```cpp
+void distanceInCentimeters(long microseconds) {
+  double speedOfSound = 343.0;
+  double distance = (microseconds * speedOfSound) / 2.0;
+  return distance / 100.0;
+}
+```
+
+### Part 6: Analyze the influence of the environment
+
+In this part the fact that ultrasonic sensors are designed to work well for measuring distances from objects that are flat and perpendicular in regards to the sensor was investigated using available objects with non flat surfaces. A bottle of water as an object with a round surface and a square box was used. As it was expected the measurements were as expected when the objects were positioned in front of the sensor without any rotation, i.e. the surface was in 90° i  respect to the sensor transmitting and receiving signals. 
+For the square box, at the angle 45°(roughly) the sensor had trouble sensing the correct distance.
+
+### Part 7: Programming a threshold
+> Modify the program for the Arduino to switch on LED (13) if an object comes closer than 2m. The LED should switch off again if the distance is larger than 2,10m.
+We used 10 cm because the sensor had trouble with longer distances
+
+```cpp
+#include <Arduino.h>
+
+#define ECHO_PIN 2
+#define TRIGGER_PIN 3
+#define LED_PIN 13
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  Serial.println("Init");
+  pinMode(ECHO_PIN, INPUT);
+  pinMode(TRIGGER_PIN, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(TRIGGER_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIGGER_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIGGER_PIN, LOW);
+  long microsencondsFlightTime = pulseIn(ECHO_PIN, HIGH);
+  Serial.println(microsencondsFlightTime);
+  if (microsencondsFlightTime < 2900) {
+    digitalWrite(LED_PIN, HIGH);
+  } else {
+    digitalWrite(LED_PIN, LOW);
+  }
+}
+```
