@@ -12,7 +12,7 @@ We use the HC-SR04 ultrasonic sensor to measure the distance between the sensor 
 
 The following diagram shows the connections between the sensor and the microcontroller.
 
-![HC-SR04 connections](https://raw.githubusercontent.com/robotics-4-all/robotics-4-all.github.io/master/notebooks/images/HC-SR04_bb.png)
+![HC-SR04 connections](https://raw.githubusercontent.com/CelestineOverflow/BUL/main/lab-1/img/image2.jpg?token=GHSAT0AAAAAACASQEKFAO7MTOVI4QQNSOFUZBSSMSA)
 
 ## Code
 
@@ -58,9 +58,7 @@ void loop() {
 
 The following error is displayed in the serial monitor.
 
-```bash
-Error: Invalid sync byte
-```
+![Error](https://raw.githubusercontent.com/CelestineOverflow/BUL/main/lab-1/img/image3.png?token=GHSAT0AAAAAACASQEKFPVYRNQLBUHOQ4O64ZBSSOJA)
 the error is caused by the baud rate mismatch between the Arduino and the computer. The baud rate of the Arduino is 115200 and the baud rate of the computer is 9600. The baud rate of the Arduino can be changed in the code by changing the value of the `Serial.begin()` function. If the values mismatch, the commputer will not be able to read the data from the serial monitor properly.
 
 > What is the maximum Baud-rate?
@@ -98,4 +96,17 @@ The data is first capture on the sensor and then sent to the Arduino thru the GP
 
 In this part the sensor was connected to the oscilloscope with two probes while it was working. One probe to the trigger pin and the other one to the echo pin. The results were recorded and can be seen in the following screenshots.
 
-![Trigger pin](https://raw.githubusercontent.com/robotics-4-all/robotics-4-all.github.io/master/notebooks/images/trigger.png)
+![Pulse Response](https://raw.githubusercontent.com/CelestineOverflow/BUL/main/lab-1/img/image11.jpg?token=GHSAT0AAAAAACASQEKFFN63MHB24626WOP6ZBSSIAA)
+
+The blue signal is the TRIG signal and the yellow signal is the ECHO signal. The TRIG signal is a 10us pulse that is sent to the sensor to start the measurement. The ECHO signal is the pulse that is sent back from the sensor to the microcontroller. The length of the ECHO signal is proportional to the distance between the sensor and the object.
+
+> What is the frequency of the ECHO signal?
+
+The frequency of the ECHO signal is around 45 Khz. However the frequency of the ECHO signal is not constant. The frequency of the ECHO signal is proportional to the distance between the sensor and the object. The closer the object is to the sensor, the higher the frequency of the ECHO signal, plus the serialisation of the signal and other factors.
+
+![Frequency Response](https://raw.githubusercontent.com/CelestineOverflow/BUL/main/lab-1/img/image5.png?token=GHSAT0AAAAAACASQEKEXFA2UABQ4ZKV6JT2ZBSSLMA)
+
+## Part 3: Sensor Characterization
+
+> Setup the sensor with a measurement distance of 100 cm. Take 100 measurements. Create a histogram of the results and calculate the mean value. What does the distribution of measurement values look like?
+
