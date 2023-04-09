@@ -1,2 +1,1 @@
-# BUL
- buses and systems lab material
+# Collection of materials for the lab 
