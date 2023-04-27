@@ -125,7 +125,7 @@ The frequency of the ECHO signal is around 45 Khz. However the frequency of the 
   <figcaption style="text-align:center;">Fig 1. - Histogram of 100 measurements at 100cm</figcaption>
 </figure>
 
->Repeatthis measurementfor five other distances. Document these, the histograms and mean values
+>Repeat this measurement for five other distances. Document these, the histograms and mean values
 
 we tested the values at 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 cm. The results are shown below.
 
@@ -192,7 +192,12 @@ The mean values of the measurements are shown below.
 </figure>
 
 
+> Analyze the results. Create a 2T plot of the results. Draw the linearity of each measurement agains the speed of sound.
 
+<figure>
+  <img src="speed_of_sound.png" alt="trendline" style="width:100%">
+  <figcaption style="text-align:center;">Fig 14. - Trendline of the speed of sound</figcaption>
+</figure>
 
 
 
@@ -200,6 +205,12 @@ The mean values of the measurements are shown below.
 
 > What is the accuracy calculated based on the measured data?
 
+the following setup was used.
+
+<figure>
+  <img src="meas_irl_setup.png" alt="Accuracy Setup" style="width:100%">
+  <figcaption style="text-align:center;">Fig 12. - Setup used to measure the accuracy</figcaption>
+</figure>
 To get the accuracy we used the following formula we calculated the relative error between the measured distance and the real distance. The results are shown below.
 
 <figure>
@@ -223,7 +234,11 @@ To get the accuracy we used the following formula we calculated the relative err
 |                 100 |           -0.03  |
 
 > What is the resolution calculated based on the measured data?
+
+
 > What is the quantization calculated based on the measured data?
+
+
 
 ## Part 5: Analyze the influence of the environment
 
@@ -238,6 +253,10 @@ void distanceInCentimeters(long microseconds) {
 ```
 
 ### Part 6: Analyze the influence of the environment
+<figure>
+  <img src="IMG_0547.JPEG" alt="Bottle" style="width:100%">
+  <figcaption style="text-align:center;">Fig 14. - Object in a grid</figcaption>
+</figure>
 
 In this part the fact that ultrasonic sensors are designed to work well for measuring distances from objects that are flat and perpendicular in regards to the sensor was investigated using available objects with non flat surfaces. A bottle of water as an object with a round surface and a square box was used. As it was expected the measurements were as expected when the objects were positioned in front of the sensor without any rotation, i.e. the surface was in 90° i  respect to the sensor transmitting and receiving signals. 
 For the square box, at the angle 45°(roughly) the sensor had trouble sensing the correct distance.
