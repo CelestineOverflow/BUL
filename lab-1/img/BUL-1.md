@@ -199,7 +199,18 @@ The mean values of the measurements are shown below.
   <figcaption style="text-align:center;">Fig 14. - Trendline of the speed of sound</figcaption>
 </figure>
 
-
+|   expected_distance[cm] |   speed[m/s] |   relative_error |
+|------------------------:|-------------:|-----------------:|
+|                      10 |      390.617 |        0.138827  |
+|                      20 |      364.852 |        0.063707  |
+|                      30 |      359.884 |        0.0492251 |
+|                      40 |      355.892 |        0.0375857 |
+|                      50 |      353.316 |        0.0300761 |
+|                      60 |      353.221 |        0.0297987 |
+|                      70 |      351.547 |        0.0249181 |
+|                      80 |      351.633 |        0.0251683 |
+|                      90 |      351.634 |        0.0251723 |
+|                     100 |      350.578 |        0.0220933 |
 
 ## Part 4: Analyze accuracy / resolution / quantization
 
