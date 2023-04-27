@@ -1,5 +1,7 @@
 # Function and characteristics of ultrasound-based TOF sensors for distance measurement
 
+Authors: Soodeh Mousaviasl, Celestine Machuca.
+
 ## Materials used
 - [HC-SR04](https://www.electronicshub.org/hc-sr04-ultrasonic-sensor/) ultrasonic sensor
 - [Arduino nano](https://store.arduino.cc/arduino-nano) microcontroller
@@ -8,11 +10,11 @@
 
 ## Setup
 
-We use the HC-SR04 ultrasonic sensor to measure the distance between the sensor and an object. The sensor has 4 pins: VCC, GND, Trig and Echo. The VCC and GND pins are used to power the sensor. The Trig pin is used to send a 10us pulse to the sensor to start the measurement. The Echo pin is used to receive the echo signal from the sensor. The echo signal is a pulse that is sent back from the sensor to the microcontroller. The length of the echo signal is proportional to the distance between the sensor and the object. The sensor has a maximum range of 4m.
+We use the HC-SR04 ultrasonic sensor to measure the distance between the sensor and an object. The sensor has 4kv pins: VCC, GND, Trig and Echo. The VCC and GND pins are used to power the sensor. The Trig pin is used to send a 10us pulse to the sensor to start the measurement. The Echo pin is used to receive the echo signal from the sensor. The echo signal is a pulse that is sent back from the sensor to the microcontroller. The length of the echo signal is proportional to the distances between the sensor and the object. The sensor has a maximum range of 4m.
 
 The following diagram shows the connections between the sensor and the microcontroller.
 
-![HC-SR04 connections](image2.jpg)
+![HC-SR04 connections](connection-diagram.png)
 
 ## Code
 
@@ -21,33 +23,25 @@ The following code is used to measure the distance between the sensor and an obj
 ```cpp
 #include <Arduino.h>
 
-#define ECHO_PIN 2
-#define TRIGGER_PIN 3
-#define LED_PIN 13
+#define trigPin D1
+#define echoPin D0
 
-void setup() {
-  // put your setup code here, to run once:
+void setup(){
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
   Serial.begin(115200);
-  Serial.println("Init");
-  pinMode(ECHO_PIN, INPUT);
-  pinMode(TRIGGER_PIN, OUTPUT);
-  pinMode(LED_PIN, OUTPUT);
+  Serial.println("Setup done");
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(TRIGGER_PIN, LOW);
+void loop(){
+  digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
-  digitalWrite(TRIGGER_PIN, HIGH);
+  digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
-  digitalWrite(TRIGGER_PIN, LOW);
-  long microsencondsFlightTime = pulseIn(ECHO_PIN, HIGH);
-  Serial.println(microsencondsFlightTime);
-  if (microsencondsFlightTime < 2900) {
-    digitalWrite(LED_PIN, HIGH);
-  } else {
-    digitalWrite(LED_PIN, LOW);
-  }
+  digitalWrite(trigPin, LOW);
+  long duration = pulseIn(echoPin, HIGH);
+  Serial.println(duration);
+  delay(100);
 }
 ```
 
@@ -98,30 +92,82 @@ In this part the sensor was connected to the oscilloscope with two probes while 
 
 ![Pulse Response](image11.jpg)
 
-The blue signal is the TRIG signal and the yellow signal is the ECHO signal. The TRIG signal is a 10us pulse that is sent to the sensor to start the measurement. The ECHO signal is the pulse that is sent back from the sensor to the microcontroller. The length of the ECHO signal is proportional to the distance between the sensor and the object.
+The trigger signal as seen in blue on the fig x is the programed 10us pulse as seen in the snippet below.
 
+```cpp
+digitalWrite(trigPin, LOW);
+delayMicroseconds(2);
+digitalWrite(trigPin, HIGH);
+delayMicroseconds(10);
+```
+
+The echo signal as seen in yellow on the fig x is the pulse that is sent back from the sensor to the microcontroller. The snippet below shows how the time it takes for the echo signal to be received is measured.
+```cpp
+long duration = pulseIn(echoPin, HIGH);
+```
+The length of the ECHO signal is proportional to the distance between the sensor and the object. The detection of that signal is done using the `pulseIn()` function in the Arduino framework.
+
+
+### to DO START!!!!!! Change this with new screenshots
 > What is the frequency of the ECHO signal?
 
 The frequency of the ECHO signal is around 45 Khz. However the frequency of the ECHO signal is not constant. The frequency of the ECHO signal is proportional to the distance between the sensor and the object. The closer the object is to the sensor, the higher the frequency of the ECHO signal, plus the serialisation of the signal and other factors.
 
 ![Frequency Response](image5.png)
+### to DO END!!!!!!
 
 ## Part 3: Sensor Characterization
 
 > Setup the sensor with a measurement distance of 100 cm. Take 100 measurements. Create a histogram of the results and calculate the mean value. What does the distribution of measurement values look like?
-> Histogram of the results
-![Histogram](image6.png)
-> Raw Data
-![Raw Data](image9.png)
+
+<figure>
+  <img src="100cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 1. - Histogram of 100 measurements at 100cm</figcaption>
+</figure>
+
+>Repeatthis measurementfor five other distances. Document these, the histograms and mean values
+
+we tested the values at 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 cm. The results are shown below.
+
+<figure>
+  <img src="10cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 2. - Histogram of 100 measurements at 10cm</figcaption>
+</figure>
+
+<figure>
+  <img src="20cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 3. - Histogram of 100 measurements at 20cm</figcaption>
+</figure>
+
+<figure>
+  <img src="30cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 4. - Histogram of 100 measurements at 30cm</figcaption>
+</figure>
+
+<figure>
+  <img src="40cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 5. - Histogram of 100 measurements at 40cm</figcaption>
+</figure>
+
+<figure>
+  <img src="50cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 6. - Histogram of 100 measurements at 50cm</figcaption>
+</figure>
+
+<figure>
+  <img src="60cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 7. - Histogram of 100 measurements at 60cm</figcaption>
+</figure>
+
+
+
 
 ## Part 4: Analyze accuracy / resolution / quantization
 
 > What is the accuracy calculated based on the measured data?
-![accuracy](accuracy.png)
 > What is the resolution calculated based on the measured data?
-> given that the resolution is the smallest difference between two values that can be measured, the resolution is calculated by taking the difference between the minimum and maximum values and dividing the result by the number of measurements. However it wasnt possible to calculate the resolution in this case because the lack of proper measuring tape. 
 > What is the quantization calculated based on the measured data?
-> Same as  resolution we were not able to calculate the quantization because of the lack of proper measuring tape.
+
 ## Part 5: Analyze the influence of the environment
 
 > Modify the program on the Arduino to deliver the distance to the object in cm.
@@ -151,7 +197,7 @@ We used 10 cm because the sensor had trouble with longer distances
 #define LED_PIN 13
 
 void setup() {
-  // put your setup code here, to run once:
+  // put your setup code here, to run once:kv
   Serial.begin(115200);
   Serial.println("Init");
   pinMode(ECHO_PIN, INPUT);
