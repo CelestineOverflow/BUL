@@ -264,6 +264,11 @@ To get the accuracy we used the following formula we calculated the relative err
 
 
 <fiqure>
+  <img src="tof_by_expected_measurement.png" alt="Error" style="width:100%">
+  <figcaption style="text-align:center;">Fig 14. - Time of flight by expected measurement</figcaption>
+</figure>
+
+<fiqure>
   <img src="relative_error_microseconds.png" alt="Error" style="width:100%">
   <figcaption style="text-align:center;">Fig 14. - Relative error between the measured microseconds and the expected microseconds</figcaption>
 </figure>
