@@ -159,12 +159,69 @@ we tested the values at 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 cm. The results 
   <figcaption style="text-align:center;">Fig 7. - Histogram of 100 measurements at 60cm</figcaption>
 </figure>
 
+<figure>
+  <img src="70cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 8. - Histogram of 100 measurements at 70cm</figcaption>
+</figure>
+
+<figure>
+  <img src="80cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 9. - Histogram of 100 measurements at 80cm</figcaption>
+</figure>
+
+<figure>
+  <img src="90cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 10. - Histogram of 100 measurements at 90cm</figcaption>
+</figure>
+
+<figure>
+  <img src="100cm_histogram.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 11. - Histogram of 100 measurements at 100cm</figcaption>
+</figure>
+
+The mean values of the measurements are shown below.
+
+<figure>
+  <img src="mean_values.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 12. - Mean values of the measurements</figcaption>
+</figure>
+
+<figure>
+  <img src="trendline_mean.png" alt="Histogram" style="width:100%">
+  <figcaption style="text-align:center;">Fig 13. - Trendline of mean values of the measurements</figcaption>
+</figure>
+
+
+
 
 
 
 ## Part 4: Analyze accuracy / resolution / quantization
 
 > What is the accuracy calculated based on the measured data?
+
+To get the accuracy we used the following formula we calculated the relative error between the measured distance and the real distance. The results are shown below.
+
+<figure>
+  <img src="relative_error.png" alt="Error" style="width:100%">
+  <figcaption style="text-align:center;">Fig 13. - Relative error between the measured distance and the real distance</figcaption>
+</figure>
+
+
+|   real_distance[cm] |   relative_error |
+|--------------------:|-----------------:|
+|                   1 |            3.187 |
+|                  10 |           -0.13  |
+|                  20 |           -0.068 |
+|                  30 |           -0.055 |
+|                  40 |           -0.045 |
+|                  50 |           -0.038 |
+|                  60 |           -0.037 |
+|                  70 |           -0.033 |
+|                  80 |           -0.033 |
+|                  90 |           -0.033 |
+|                 100 |           -0.03  |
+
 > What is the resolution calculated based on the measured data?
 > What is the quantization calculated based on the measured data?
 
