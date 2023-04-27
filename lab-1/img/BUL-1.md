@@ -295,6 +295,19 @@ void distanceInCentimeters(long microseconds) {
   <figcaption style="text-align:center;">Fig 14. - Object in a grid</figcaption>
 </figure>
 
+We put a square object in a grid in a horizontal and diagonal position. The relative error heatmap is shown below.
+
+<figure>
+  <img src="diagonal_error.png" alt="Error" style="width:100%">
+  <figcaption style="text-align:center;">Fig 15. - Relative error heatmap</figcaption>
+</figure>
+
+<figure>
+  <img src="horizontal_error.png" alt="Error" style="width:100%">
+  <figcaption style="text-align:center;">Fig 16. - Relative error heatmap</figcaption>
+</figure>
+
+
 In this part the fact that ultrasonic sensors are designed to work well for measuring distances from objects that are flat and perpendicular in regards to the sensor was investigated using available objects with non flat surfaces. A bottle of water as an object with a round surface and a square box was used. As it was expected the measurements were as expected when the objects were positioned in front of the sensor without any rotation, i.e. the surface was in 90° i  respect to the sensor transmitting and receiving signals. 
 For the square box, at the angle 45°(roughly) the sensor had trouble sensing the correct distance.
 
