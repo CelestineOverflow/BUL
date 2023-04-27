@@ -200,33 +200,7 @@ The mean values of the measurements are shown below.
 </figure>
 
 
-file_name	microseconds	distance[cm]
-0	0cm	168339	2861.763
-1	0cm	168428	2863.276
-2	0cm	169240	2877.080
-3	0cm	168968	2872.456
-4	0cm	168721	2868.257
-...	...	...	...
-1207	90cm	5098	86.666
-1208	90cm	5145	87.465
-1209	90cm	5097	86.649
-1210	90cm	5097	86.649
-1211	90cm	5169	87.873
-1212 rows × 3 columns
 
-file_name	microseconds	distance[cm]	expected_distance[cm]	speed[m/s]
-0	0cm	168339	2861.763	0.0	0.0
-1	0cm	168428	2863.276	0.0	0.0
-2	0cm	169240	2877.080	0.0	0.0
-3	0cm	168968	2872.456	0.0	0.0
-4	0cm	168721	2868.257	0.0	0.0
-...	...	...	...	...	...
-1207	90cm	5098	86.666	90.0	353.079639
-1208	90cm	5145	87.465	90.0	349.854227
-1209	90cm	5097	86.649	90.0	353.148911
-1210	90cm	5097	86.649	90.0	353.148911
-1211	90cm	5169	87.873	90.0	348.229832
-1212 rows × 5 columns
 
 |   expected_distance[cm] |   speed[m/s] |   relative_error |   relative_error[%] |
 |------------------------:|-------------:|-----------------:|--------------------:|
@@ -259,19 +233,42 @@ To get the accuracy we used the following formula we calculated the relative err
 </figure>
 
 
-|   real_distance[cm] |   relative_error |
-|--------------------:|-----------------:|
-|                   1 |            3.187 |
-|                  10 |           -0.13  |
-|                  20 |           -0.068 |
-|                  30 |           -0.055 |
-|                  40 |           -0.045 |
-|                  50 |           -0.038 |
-|                  60 |           -0.037 |
-|                  70 |           -0.033 |
-|                  80 |           -0.033 |
-|                  90 |           -0.033 |
-|                 100 |           -0.03  |
+  |   real_distance[cm] |   relative_error |
+  |--------------------:|-----------------:|
+  |                   1 |            3.187 |
+  |                  10 |           -0.13  |
+  |                  20 |           -0.068 |
+  |                  30 |           -0.055 |
+  |                  40 |           -0.045 |
+  |                  50 |           -0.038 |
+  |                  60 |           -0.037 |
+  |                  70 |           -0.033 |
+  |                  80 |           -0.033 |
+  |                  90 |           -0.033 |
+  |                 100 |           -0.03  |
+
+
+
+|    |   real_distance[cm] |   microseconds |   expected_microseconds |   relative_error_microseconds |   relative_error_microseconds_percent |
+|---:|--------------------:|---------------:|------------------------:|------------------------------:|--------------------------------------:|
+|  1 |                  10 |         512.01 |                  583.09 |                    -0.121903  |                             -12.1903  |
+|  2 |                  20 |        1096.34 |                 1166.18 |                    -0.0598913 |                              -5.98913 |
+|  3 |                  30 |        1667.26 |                 1749.27 |                    -0.0468845 |                              -4.68845 |
+|  4 |                  40 |        2247.88 |                 2332.36 |                    -0.0362209 |                              -3.62209 |
+|  5 |                  50 |        2830.33 |                 2915.45 |                    -0.0291979 |                              -2.91979 |
+|  6 |                  60 |        3397.32 |                 3498.54 |                    -0.0289336 |                              -2.89336 |
+|  7 |                  70 |        3982.43 |                 4081.63 |                    -0.0243057 |                              -2.43057 |
+|  8 |                  80 |        4550.28 |                 4664.72 |                    -0.0245343 |                              -2.45343 |
+|  9 |                  90 |        5118.99 |                 5247.81 |                    -0.024548  |                              -2.4548  |
+|  0 |                 100 |        5704.9  |                 5830.9  |                    -0.0216095 |                              -2.16095 |
+
+
+<fiqure>
+  <img src="relative_error_microseconds.png" alt="Error" style="width:100%">
+  <figcaption style="text-align:center;">Fig 14. - Relative error between the measured microseconds and the expected microseconds</figcaption>
+</figure>
+
+
 
 > What is the resolution calculated based on the measured data?
 
