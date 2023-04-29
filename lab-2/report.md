@@ -85,7 +85,9 @@ A serial terminal or custom software on the laptop reads and interprets the rece
 
 * Find out how to set the sensor cluster to different bandwidths and measurement ranges by analyzing the data sheet?
 
-
+Using the datasheet, the sensor cluster can be set to different bandwidth and measurements through modifying the values of specific registers in the MPU-6050’s register map. 
+The 0x1A register – CONFIG – is used to configure the DLPF (Digital Low-Pass Filter) and the sampling rate divider (SMPLRT_DIV). The 0x1B register - GYRO_CONFIG – is for configuring the Gyroscope’s full-scale range. And the 0x1C register - ACCEL_CONFIG – is for configuring the full-scale range of the accelerometer. 
+Hence, to set different bandwidth the DLPF_CFG bits of 0x1A register were modified based on the availble options (look datasheet register map page 13).
 
 
 
