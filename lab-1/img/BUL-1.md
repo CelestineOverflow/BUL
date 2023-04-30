@@ -282,7 +282,7 @@ To get the accuracy we used the following formula we calculated the relative err
 
 
 
-## Part 5: Analyze the influence of the environment
+## Part 5:Modifying the program 
 
 > Modify the program on the Arduino to deliver the distance to the object in cm.
 
@@ -294,7 +294,7 @@ void distanceInCentimeters(long microseconds) {
 }
 ```
 
-### Part 6: Analyze the influence of the environment
+## Part 6: Analyze the influence of the environment
 <figure>
   <img src="IMG_0547.JPEG" alt="Bottle" style="width:100%">
   <figcaption style="text-align:center;">Fig 14. - Object in a grid</figcaption>
