@@ -317,7 +317,7 @@ In this part the fact that ultrasonic sensors are designed to work well for meas
 For the square box, at the angle 45°(roughly) the sensor had trouble sensing the correct distance.
 
 ### Part 7: Programming a threshold
-> Modify the program for the Arduino to switch on LED (13) if an object comes closer than 2m. The LED should switch off again if the distance is larger than 2,10m.
+> Modify the program for the Arduino to switch on LED (13) if an object comes closer than 2m. The LED should switch off again if the distance is larger than 
 We used 10 cm because the sensor had trouble with longer distances
 
 ```cpp
