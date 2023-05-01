@@ -308,6 +308,18 @@ changing the range translates on to the table below against the theoretical reso
 
 * Please answer the following questions in your lab report:What is the datarate? How many bits (raw) are transferred per second?Analyze a single I2C telegram based on your oscilloscope measurement.How does your measurement compare tothe physical layer of the ideal I2C?
 
+The I2C protocl consists of following bits:
+- start bit
+- 7 bit slave (device) address
+- Read/Write bit
+- ACK bit
+- 8 bit internal register address
+- ACK bit
+- 8 bit Data
+- ACK bit
+- Stop bit
+source: https://www.youtube.com/watch?v=6IAkYpmA1DQ&t=68s
+
 ### Part 4 Measuring Noise on a acceleration sensor
 
 * Analyze the noise performance of one of the three axes of the accelerometer for different bandwidths (e.g. 260 Hz vs. 5 Hz)
