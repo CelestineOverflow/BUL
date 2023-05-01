@@ -264,6 +264,10 @@ Page 30 Registers 67 to 72 – Gyroscope Measurements
 
 We performed the test over this values = +-2g, +-4g,+-8g, +-16h against earth gravity on the X Accelerometer. The results are shown below.
 
+<figure>
+    <img src="Accelerometer_Results.png" alt="accelerometer results" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 10 Accelerometer Results</figcaption>
+</figure>
 
 * What is the resolution of each of these measurements?
 In theory a the int 2^{16} = 65536 different values can be measured. The range of the accelerometer is -2g to +2gs as 2 complements is used.
@@ -287,6 +291,29 @@ The resolution is 4g/65536 = 0.000061 g
 
 * Create and compare the histograms for at least two different bandwidths and, if applicable, with or w/o filter. What are the reasons for the differences?
 
+
+<figure>
+    <img src="positive/plots/histogram_acceleration_x_2g_different_filters.png" alt="histogram acceleration x 2g different filters" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 11 Histogram Acceleration X 2g Different Filters</figcaption>
+</figure>
+
+<figure>
+    <img src="positive/plots/histogram_acceleration_x_4g_different_filters.png" alt="histogram acceleration x 4g different filters" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 12 Histogram Acceleration X 4g Different Filters</figcaption>
+</figure>
+
+<figure>
+    <img src="positive/plots/histogram_acceleration_x_8g_different_filters.png" alt="histogram acceleration x 8g different filters" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 13 Histogram Acceleration X 8g Different Filters</figcaption>
+</figure>
+
+<figure>
+    <img src="positive/plots/histogram_acceleration_x_16g_different_filters.png" alt="histogram acceleration x 16g different filters" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 14 Histogram Acceleration X 16g Different Filters</figcaption>
+</figure>
+
+
+
 ### Part 5 Determination of the noise behavior of a channel of the angular rate sensor -->
 
 * Analyze the noise behavior of one of the three axes of the angular rate sensor for different bandwidths (e.g. 260 Hz vs. 5 Hz).
@@ -296,6 +323,11 @@ The resolution is 4g/65536 = 0.000061 g
 * Create and compare the histograms for at least two different bandwidths and, if applicable, with or w/o filter. What are the reasons for the differences?
 
 * How large is the offset of the yaw rate signal in the respective measurements?
+
+<figure>
+    <img src="histogram_gyro_x_250_different_filters.png" alt="histogram gyroscope x 250dps different filters" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 15 Histogram Gyroscope X 250dps Different Filters</figcaption>
+</figure>
 
 ### Part 6 Visualization with “Processing”
 
