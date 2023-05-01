@@ -275,9 +275,14 @@ We performed the test over this values = +-2g, +-4g,+-8g, +-16h against earth gr
 </figure>
 
 * What is the resolution of each of these measurements?
-In theory a the int 2^{16} = 65536 different values can be measured. The range of the accelerometer is -2g to +2gs as 2 complements is used.
 
-The resolution is 4g/65536 = 0.000061 g
+
+| acc_setting   | theoretical_resolution[g/LSB]   | measured_resolution[g/LSB]   |
+|:--------------|:--------------------------------|:-----------------------------|
+| 2G            | 6.10E-05                        | 5.79E-05                     |
+| 4G            | 1.22E-04                        | 1.16E-04                     |
+| 8G            | 2.44E-04                        | 2.32E-04                     |
+| 16G           | 4.88E-04                        | 4.63E-04                     |
 
 
 ### Part 3 Oscilloscope measurements on the I2C bus
