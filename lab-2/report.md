@@ -276,6 +276,10 @@ We performed the test over this values = +-2g, +-4g,+-8g, +-16h against earth gr
 
 * What is the resolution of each of these measurements?
 
+given the range int 16 signed from -32768 to 32767, the resolution is 2^16/2 = 32768/2 = 16384 for 1g.
+1g/16384 = 6.10E-05 g/LSB
+
+changing the range translates on to the table below against the theoretical resolution and the measured resolution.
 
 | acc_setting   | theoretical_resolution[g/LSB]   | measured_resolution[g/LSB]   |
 |:--------------|:--------------------------------|:-----------------------------|
