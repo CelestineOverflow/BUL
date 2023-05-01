@@ -364,9 +364,145 @@ changing the range translates on to the table below against the theoretical reso
 
 * Analyze the program for the Arduino. How does it work? How do you find out the correction values that need to be entered into the program?
 
+The function calculate imu error capturres 200 samples and calculate the drift on x and y by averaging the samples and obtaining the x and y components of the drift vector.
+
+```c
+void calculate_IMU_error() {
+  // We can call this funtion in the setup section to calculate the accelerometer and gyro data error. 
+  // From here we will get the error values used in the above equations printed on the Serial Monitor.
+  // Note that we should place the IMU flat in order to get the proper values, so that we then can the correct values
+  // Read accelerometer values 200 times
+  while (c < 200) {
+    Wire.beginTransmission(MPU);
+    Wire.write(0x3B);
+    Wire.endTransmission(false);
+    Wire.requestFrom(MPU, 6, true);
+    AccX = (Wire.read() << 8 | Wire.read()) / 16384.0 ;
+    AccY = (Wire.read() << 8 | Wire.read()) / 16384.0 ;
+    AccZ = (Wire.read() << 8 | Wire.read()) / 16384.0 ;
+    // Sum all readings
+    AccErrorX = AccErrorX + ((atan((AccY) / sqrt(pow((AccX), 2) + pow((AccZ), 2))) * 180 / PI));
+    AccErrorY = AccErrorY + ((atan(-1 * (AccX) / sqrt(pow((AccY), 2) + pow((AccZ), 2))) * 180 / PI));
+    c++;
+  }
+  //Divide the sum by 200 to get the error value
+  AccErrorX = AccErrorX / 200;
+  AccErrorY = AccErrorY / 200;
+  c = 0;
+  // Read gyro values 200 times
+  while (c < 200) {
+    Wire.beginTransmission(MPU);
+    Wire.write(0x43);
+    Wire.endTransmission(false);
+    Wire.requestFrom(MPU, 6, true);
+    GyroX = Wire.read() << 8 | Wire.read();
+    GyroY = Wire.read() << 8 | Wire.read();
+    GyroZ = Wire.read() << 8 | Wire.read();
+    // Sum all readings
+    GyroErrorX = GyroErrorX + (GyroX / 131.0);
+    GyroErrorY = GyroErrorY + (GyroY / 131.0);
+    GyroErrorZ = GyroErrorZ + (GyroZ / 131.0);
+    c++;
+  }
+  //Divide the sum by 200 to get the error value
+  GyroErrorX = GyroErrorX / 200;
+  GyroErrorY = GyroErrorY / 200;
+  GyroErrorZ = GyroErrorZ / 200;
+  GyroErrorZ = GyroErrorZ + 0.01;
+  
+  // Print the error values on the Serial Monitor
+  Serial.print("AccErrorX: ");
+  Serial.println(AccErrorX);
+  Serial.print("AccErrorY: ");
+  Serial.println(AccErrorY);
+  Serial.print("GyroErrorX: ");
+  Serial.println(GyroErrorX);
+  Serial.print("GyroErrorY: ");
+  Serial.println(GyroErrorY);
+  Serial.print("GyroErrorZ: ");
+  Serial.println(GyroErrorZ);
+}
+```
+
+the value obtained is later use as a offset to correct the drift on the x and y axis.
+
+```c
+  GyroX = GyroX - GyroErrorX ; // GyroErrorX ~(-0.56)
+  GyroY = GyroY - GyroErrorY; // GyroErrorY ~(2)
+  GyroZ = GyroZ - GyroErrorZ; // GyroErrorZ ~ (-0.8)
+```
+
 * Analyzethe program for Processing. What does this program do? How does it work?
 
+The program for processing reads the data from the serial port, translate the 'cube' and display the yaw, pitch and roll values.
+
+## initiates the serial port 
+
+```java
+void setup() {
+  size (1024, 768, P3D);
+  myPort = new Serial(this, "COM4", 19200); // starts the serial communication
+  myPort.bufferUntil('\n');
+  // logo = loadImage("UrbanMobilityLab.png");
+  // logo2 = loadImage("HAW_Marke.png");
+}
+```
+## reads the data on serial event
+
+```java
+void serialEvent (Serial myPort) { 
+  // reads the data from the Serial Port up to the character '.' and puts it into the String variable "data".
+  data = myPort.readStringUntil('\n');
+
+  // if you got any bytes other than the linefeed:
+  if (data != null) {
+    data = trim(data);
+    // split the string at "/"
+    String items[] = split(data, '/');
+    if (items.length > 1) {
+
+      //--- Roll,Pitch in degrees
+      roll = float(items[0]);
+      pitch = float(items[1]);
+      yaw = float(items[2]);
+    }
+  }
+}
+
+```
+
+## draws the cube and the text, call on every frame
+
+```java
+void draw() {
+  translate(width/2, height/2, 0);
+  background(233);
+  textSize(22);
+  text("Roll: " + int(roll) + "     Pitch: " + int(pitch), -100, 265);
+
+  // Rotate the object
+  rotateX(radians(-pitch));
+  rotateZ(radians(roll));
+  rotateY(radians(yaw));
+  
+  // 3D 0bject
+  textSize(20);  
+  fill(0, 76, 153);
+  box (500, 40, 200); // Draw box
+  textSize(25);
+  fill(255, 255, 255);
+  text("HAW Hamburg", -183, 10, 101);
+  //image(logo,0,-300,400,400);
+  //image(logo2,-200,0);
+  delay(10);
+  //println("ypr:\t" + angleX + "\t" + angleY); // Print the values to check whether we are getting proper values
+}
+```
+
+
 * Try itout: Move the sensor and watch the screen. How do you know that your sensor is not yet perfectly calibrated?
+
+if the sensor drifts it means that the sensor is not yet perfectly calibrated.
 
 * Document your results with a screendump in your lab report.
 <figure>
