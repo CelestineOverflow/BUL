@@ -22,7 +22,7 @@ Materials used
 ## Setup Used
 
 <figure>
-    <img src="setup.jpg" alt="Setup" style="width:100%">
+    <img src="IMG_0622.jpeg" alt="Setup" style="width:100%">
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 2 Setup</figcaption>
 </figure>
 
@@ -265,8 +265,13 @@ Page 30 Registers 67 to 72 – Gyroscope Measurements
 We performed the test over this values = +-2g, +-4g,+-8g, +-16h against earth gravity on the X Accelerometer. The results are shown below.
 
 <figure>
-    <img src="Accelerometer_Results.png" alt="accelerometer results" style="width:100%">
+    <img src="acceleration_different_filter_mean.png" alt="accelerometer results" style="width:100%">
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 10 Accelerometer Results</figcaption>
+</figure>
+
+<figure>
+    <img src="acceleration_relative_error.png" alt="accelerometer relative error" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 11 Accelerometer Relative Error</figcaption>
 </figure>
 
 * What is the resolution of each of these measurements?
