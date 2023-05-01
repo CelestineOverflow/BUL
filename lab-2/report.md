@@ -37,9 +37,9 @@ c code used
 ```c	
 #include <Arduino.h>
 #include <Wire.h>
-
 #define sensor_address 0x68
 
+// keywords = ['@filter_setting', '@accelerometer_setting', '@gyroscope_setting']
 #define FILTER_CONFIG_REG 0x1A
 
 #define SET_FILTER_260HZ 0x06
@@ -75,13 +75,14 @@ void SetConfiguration(byte reg, byte setting)
   Wire.endTransmission();
 }
 
-void setupIMU(){
-
-}
 void setup()
 {
-  // ggf. Übertragungsrate anpassen
   Serial.begin(115200);
+  pinMode(D7, OUTPUT);
+  digitalWrite(D7, LOW);
+  delay(1000);
+  digitalWrite(D7, HIGH);
+  delay(1000);
   Wire.begin();
   delay(1000);
 
@@ -100,11 +101,11 @@ void setup()
 
   delay(500);
   // filter configuration
-  SetConfiguration(FILTER_CONFIG_REG, SET_FILTER_94HZ);
+  SetConfiguration(FILTER_CONFIG_REG, @filter_setting);
   // gyro config
-  SetConfiguration(GYRO_CONFIG_REG, SET_GYRO_1000);
+  SetConfiguration(GYRO_CONFIG_REG, @gyroscope_setting);
   // acc config
-  SetConfiguration(ACC_CONFIG_REG, SET_ACC_8G);
+  SetConfiguration(ACC_CONFIG_REG, @accelerometer_setting);
   delay(500);
 }
 
@@ -121,7 +122,7 @@ void loop()
     result[i] = Wire.read();
   }
 
-
+  // Accelerometer
   int16_t acc_X = (((int16_t)result[0]) << 8) | result[1];
   int16_t acc_Y = (((int16_t)result[2]) << 8) | result[3];
   int16_t acc_Z = (((int16_t)result[4]) << 8) | result[5];
@@ -135,7 +136,7 @@ void loop()
   int16_t gyr_Y = (((int16_t)result[10]) << 8) | result[11];
   int16_t gyr_Z = (((int16_t)result[12]) << 8) | result[13];
   // Print data
-  //json like format
+  // json like format
   Serial.print("{\"acc_X\":");
   Serial.print(acc_X);
   Serial.print(",\"acc_Y\":");
@@ -154,7 +155,6 @@ void loop()
   Serial.print(gyr_Z);
   Serial.println("}");
 }
-
 ```
 
 From the code the data being recorded is:
@@ -360,3 +360,7 @@ The resolution is 4g/65536 = 0.000061 g
 * Try itout: Move the sensor and watch the screen. How do you know that your sensor is not yet perfectly calibrated?
 
 * Document your results with a screendump in your lab report.
+<figure>
+    <img src="processingmpu.png" alt="processing" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 19 Processing</figcaption>
+</figure>
