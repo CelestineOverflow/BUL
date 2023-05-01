@@ -1,10 +1,9 @@
 # IE6-BUL  S23
 
-# Function and Characterization ofanInertial SensorCluster/ I2C bus 
+# Function and Characterization of an Inertial Sensor Cluster/ I2C bus 
 
 Authors: Soodeh Mousaviasl, Celestine Machuca.
-
-Materials used
+## Materials used
 
 * [Arduino nano](https://store.arduino.cc/arduino-nano) microcontroller
 
@@ -270,9 +269,21 @@ We performed the test over this values = +-2g, +-4g,+-8g, +-16h against earth gr
 </figure>
 
 <figure>
+    <img src="acceleration_different_filter_mean_negative.png" alt="accelerometer results negative" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 11 Accelerometer Results Negative</figcaption>
+</figure>
+
+
+<figure>
     <img src="acceleration_relative_error.png" alt="accelerometer relative error" style="width:100%">
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 11 Accelerometer Relative Error</figcaption>
 </figure>
+
+<figure>
+    <img src="acceleration_different_filter_mean_error_negative.png" alt="accelerometer relative error negative" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 12 Accelerometer Relative Error Negative</figcaption>
+</figure>
+
 
 * What is the resolution of each of these measurements?
 
@@ -436,7 +447,7 @@ the value obtained is later use as a offset to correct the drift on the x and y 
 
 The program for processing reads the data from the serial port, translate the 'cube' and display the yaw, pitch and roll values.
 
-## initiates the serial port 
+### initiates the serial port 
 
 ```java
 void setup() {
@@ -447,7 +458,7 @@ void setup() {
   // logo2 = loadImage("HAW_Marke.png");
 }
 ```
-## reads the data on serial event
+### reads the data on serial event
 
 ```java
 void serialEvent (Serial myPort) { 
@@ -471,7 +482,7 @@ void serialEvent (Serial myPort) {
 
 ```
 
-## draws the cube and the text, call on every frame
+### draws the cube and the text, call on every frame
 
 ```java
 void draw() {
@@ -509,3 +520,7 @@ if the sensor drifts it means that the sensor is not yet perfectly calibrated.
     <img src="processingmpu.png" alt="processing" style="width:100%">
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 19 Processing</figcaption>
 </figure>
+
+## References
+
+* [MPU6050](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)
