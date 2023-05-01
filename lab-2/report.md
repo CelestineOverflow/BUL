@@ -325,8 +325,23 @@ The resolution is 4g/65536 = 0.000061 g
 * How large is the offset of the yaw rate signal in the respective measurements?
 
 <figure>
-    <img src="histogram_gyro_x_250_different_filters.png" alt="histogram gyroscope x 250dps different filters" style="width:100%">
+    <img src="positive/plots/histogram_gyro_x_250_different_filters.png" alt="histogram gyroscope x 250dps different filters" style="width:100%">
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 15 Histogram Gyroscope X 250dps Different Filters</figcaption>
+</figure>
+
+<figure>
+    <img src="positive/plots/histogram_gyro_x_500_different_filters.png" alt="histogram gyroscope x 500dps different filters" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 16 Histogram Gyroscope X 500dps Different Filters</figcaption>
+</figure>
+
+<figure>
+    <img src="positive/plots/histogram_gyro_x_1000_different_filters.png" alt="histogram gyroscope x 1000dps different filters" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 17 Histogram Gyroscope X 1000dps Different Filters</figcaption>
+</figure>
+
+<figure>
+    <img src="positive/plots/histogram_gyro_x_2000_different_filters.png" alt="histogram gyroscope x 2000dps different filters" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 18 Histogram Gyroscope X 2000dps Different Filters</figcaption>
 </figure>
 
 ### Part 6 Visualization with “Processing”
