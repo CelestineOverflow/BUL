@@ -338,6 +338,17 @@ changing the range translates on to the table below against the theoretical reso
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 18 Oscilloscope</figcaption>
 </figure>
 
+The I2C protocl consists of following bits:
+- start bit
+- 7 bit slave (device) address
+- Read/Write bit
+- ACK bit
+- 8 bit internal register address
+- ACK bit
+- 8 bit Data
+- ACK bit
+- Stop bit
+source: https://www.youtube.com/watch?v=6IAkYpmA1DQ&t=68s
 
 ### Part 4 Measuring Noise on a acceleration sensor
 
