@@ -308,6 +308,37 @@ changing the range translates on to the table below against the theoretical reso
 
 * Please answer the following questions in your lab report:What is the datarate? How many bits (raw) are transferred per second?Analyze a single I2C telegram based on your oscilloscope measurement.How does your measurement compare tothe physical layer of the ideal I2C?
 
+<figure>
+    <img src="oscilloscope-0-1300.png" alt="oscilloscope" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 13 Oscilloscope</figcaption>
+</figure>
+
+<figure>
+    <img src="oscilloscope-1300-2300.png" alt="oscilloscope" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 14 Oscilloscope</figcaption>
+</figure>
+
+<figure>
+    <img src="oscilloscope-2300-3300.png" alt="oscilloscope" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 15 Oscilloscope</figcaption>
+</figure>
+
+<figure>
+    <img src="oscilloscope-3300-4300.png" alt="oscilloscope" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 16 Oscilloscope</figcaption>
+</figure>
+
+<figure>
+    <img src="oscilloscope-4300-5300.png" alt="oscilloscope" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 17 Oscilloscope</figcaption>
+</figure>
+
+<figure>
+    <img src="oscilloscope-5300-6300.png" alt="oscilloscope" style="width:100%">
+    <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 18 Oscilloscope</figcaption>
+</figure>
+
+
 ### Part 4 Measuring Noise on a acceleration sensor
 
 * Analyze the noise performance of one of the three axes of the accelerometer for different bandwidths (e.g. 260 Hz vs. 5 Hz)
