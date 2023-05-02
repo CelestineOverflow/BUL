@@ -264,6 +264,39 @@ Page 30 Registers 67 to 72 – Gyroscope Measurements
 We performed the test over this values = +-2g, +-4g,+-8g, +-16h against earth gravity on the X Accelerometer. The results are shown below.
 
 <figure>
+      <image src="positive\plots\histogram_10hz_2g.png" alt="histogram 10hz 2g against earth gravity" style="width:100%">
+      <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 10 Histogram 10hz 2g against earth gravity</figcaption>
+</figure>
+
+<figure>
+      <image src="positive\plots\histogram_10hz_16g.png" alt="histogram 10hz 16g against earth gravity" style="width:100%">
+      <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 11 Histogram 10hz 16g against earth gravity</figcaption>
+</figure>
+
+
+<figure>
+      <image src="negative\plots\histogram_10hz_2g.png" alt="histogram 10hz 2g against earth gravity" style="width:100%">
+      <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 12 Histogram 10hz 2g with earth gravity</figcaption>
+</figure>
+
+<figure>
+      <image src="negative\plots\histogram_10hz_16g.png" alt="histogram 10hz 16g against earth gravity" style="width:100%">
+      <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 13 Histogram 10hz 16g with earth gravity</figcaption>
+</figure>
+
+<figure>
+      <image src="neutral\histogram_10hz_2g.png" alt="histogram 10hz 2g neutral" style="width:100%">
+      <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 14 Histogram 10hz 2g neutral</figcaption>
+</figure>
+
+<figure>
+      <image src="neutral\histogram_10hz_16g.png" alt="histogram 10hz 16g neutral" style="width:100%">
+      <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 15 Histogram 10hz 16g neutral</figcaption>
+</figure>
+
+
+
+<figure>
     <img src="acceleration_different_filter_mean.png" alt="accelerometer results" style="width:100%">
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 10 Accelerometer Results</figcaption>
 </figure>
@@ -555,7 +588,7 @@ void draw() {
 
 * Try itout: Move the sensor and watch the screen. How do you know that your sensor is not yet perfectly calibrated?
 
-if the sensor drifts it means that the sensor is not yet perfectly calibrated.
+if the sensor drifts it means that the sensor is not yet perfectly calibrated as the continous integration of the gyroscope values and its inherent error will add up over time generating a drift.
 
 * Document your results with a screendump in your lab report.
 <figure>
