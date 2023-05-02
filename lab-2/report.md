@@ -192,7 +192,7 @@ Example output:
 * how does the measurement data get to the laptop?
 
 <figure>
-    <img src="flow chart.jpg" alt="flow chart" style="width:100%">
+    <img src="dataflow.png" alt="flow chart" style="width:100%">
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 3 Flow Chart</figcaption>
 </figure>
 
@@ -371,17 +371,25 @@ changing the range translates on to the table below against the theoretical reso
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 18 Oscilloscope</figcaption>
 </figure>
 
-The I2C protocl consists of following bits:
-- start bit
-- 7 bit slave (device) address
-- Read/Write bit
-- ACK bit
-- 8 bit internal register address
-- ACK bit
-- 8 bit Data
-- ACK bit
-- Stop bit
-source: https://www.youtube.com/watch?v=6IAkYpmA1DQ&t=68s
+<figure>
+      <img src="bitrate.png" alt="bitrate" style="width:100%">
+      <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 19 Bitrate</figcaption>
+</figure>
+
+
+From the data collected from the oscilloscope, we can see that given the period of scl(CH1) of delta 7.2 microseconds * 2 = 14.4 microseconds, 1/14.4 * 10 ^ 6 = 69.44 kHz. This is the frequency of the clock signal, if we assumed 1 bit per clock cycle, then the bitrate would be 69.44 kbps but that would be without taking into account the overhead from the protocol and other factors.
+
+    The I2C protocl consists of following bits:
+    - start bit
+    - 7 bit slave (device) address
+    - Read/Write bit
+    - ACK bit
+    - 8 bit internal register address
+    - ACK bit
+    - 8 bit Data
+    - ACK bit
+    - Stop bit
+    source: https://www.youtube.com/watch?v=6IAkYpmA1DQ&t=68s
 
 ### Part 4 Measuring Noise on a acceleration sensor
 
