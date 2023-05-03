@@ -5,7 +5,7 @@
 Authors: Soodeh Mousaviasl, Celestine Machuca.
 ## Materials used
 
-* [Arduino nano](https://store.arduino.cc/arduino-nano) microcontroller
+* [D1 Mini](https://www.wemos.cc/en/latest/d1/d1_mini.html) microcontroller
 
 * [Breadboard](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Breadboard) for prototyping
 
@@ -420,7 +420,7 @@ From the data collected from the oscilloscope, we can see that given the period 
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 14 Histogram Acceleration X 16g Different Filters</figcaption>
 </figure>
 
-
+There is no correlation in between the cutoff frequency on the low pass filter and the spread of the extreme values, as we originally expected. 
 
 ### Part 5 Determination of the noise behavior of a channel of the angular rate sensor -->
 
@@ -451,6 +451,8 @@ From the data collected from the oscilloscope, we can see that given the period 
     <img src="positive/plots/histogram_gyro_x_2000_different_filters.png" alt="histogram gyroscope x 2000dps different filters" style="width:100%">
     <figcaption style="text-align:center; font-style: italic; font-size: smaller;">Fig 18 Histogram Gyroscope X 2000dps Different Filters</figcaption>
 </figure>
+
+We again see no correlation in between the cutoff frequency on the low pass filter and the spread of the extreme values, as we originally expected. The register maps quotes the sensor as having a digital low pass filter. Perhaps the delta between the diferent values isnt big enough to trigger it and a more accurate test would be to move the sensor around with a know acceleration. 
 
 ### Part 6 Visualization with “Processing”
 
