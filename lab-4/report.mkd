@@ -1,0 +1,79 @@
+# BUL LAB-4
+
+### CAN-Interface Setup und Test
+
+```python
+import canalystii
+import usb.core
+import usb.util
+
+
+dev = canalystii.CanalystDevice(bitrate=500000)
+
+# Sending a message
+new_message = canalystii.Message(can_id=0x300,
+                                 remote=True,
+                                 extended=False,
+                                 data_len=8,
+                                 data=(0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08))
+# Send one copy to channel 1
+dev.send(1, new_message)
+# Send 3 copies to channel 0
+# (argument can be an instance of canalystii.Message or a list of instances)
+dev.send(0, [new_message] * 3)
+
+#read the data
+data = dev.receive(0)
+print(data)
+data = dev.receive(1)
+print(data)
+```
+
+we tested the message function by varying the diferent parameters and checking the output on code.
+
+if remote is true the data field of the message will be ignored and the message will be sent as a remote frame.
+
+with remote = True
+
+```bash
+[CanalystMessage ID=0x300 TS=0x9f5227 Data=0000000000000000]
+[CanalystMessage ID=0x300 TS=0x9f522b Data=0000000000000000, CanalystMessage ID=0x300 TS=0x9f522c Data=0000000000000000, CanalystMessage ID=0x300 TS=0x9f522d Data=0000000000000000]
+
+```
+
+with remote = False
+
+```bash
+[CanalystMessage ID=0x300 TS=0xa7d61a Data=0102030405060708]
+[CanalystMessage ID=0x300 TS=0xa7d621 Data=0102030405060708, CanalystMessage ID=0x300 TS=0xa7d623 Data=0102030405060708, CanalystMessage ID=0x300 TS=0xa7d626 Data=0102030405060708]
+```
+
+
+if extended is true then CAN ID is an extended address according to the documentation of canalystii.
+
+exteded = True
+
+```bash
+[CanalystMessage ID=0x300 TS=0xb872be Data=0102030405060708]
+[CanalystMessage ID=0x300 TS=0xb872c2 Data=0102030405060708, CanalystMessage ID=0x300 TS=0xb872c5 Data=0102030405060708, CanalystMessage ID=0x300 TS=0xb872c7 Data=0102030405060708]
+```
+extended = False
+
+```bash
+[CanalystMessage ID=0x300 TS=0xbd411d Data=0102030405060708]
+[CanalystMessage ID=0x300 TS=0xbd4122 Data=0102030405060708, CanalystMessage ID=0x300 TS=0xbd4125 Data=0102030405060708, CanalystMessage ID=0x300 TS=0xbd4127 Data=0102030405060708]
+```
+
+
+data_len is the length of the data field in bytes.
+
+data is a tuple of bytes to be sent in the data field of the message.
+
+
+## Exercise 2 – CAN Physical Layer (Loopback CAN1-CAN2)
+
+data at baudrate 500000
+
+
+
+data at baudrate 250000 
