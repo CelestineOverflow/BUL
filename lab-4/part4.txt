@@ -1,0 +1,2600 @@
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf6c7 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf6c9 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acf6cc Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf6df Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf6e2 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf6e4 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf6f7 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf6fa Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf6fc Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf711 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf714 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf716 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf72b Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf72e Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf730 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf743 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf745 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf747 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf75d Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf75f Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf761 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf775 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf778 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf77a Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf78d Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf790 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf792 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf7a9 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf7ac Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acf7ae Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf7c0 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf7c2 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf7c4 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf7d9 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf7db Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf7de Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf7f1 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf7f4 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acf7f6 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf808 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf80a Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf80d Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf81f Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf821 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf823 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf838 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf83a Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf83c Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf851 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf853 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf855 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf86a Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf86c Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf86f Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf881 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf883 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf886 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf898 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf89a Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf89d Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf8b1 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf8b4 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf8b6 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf8c8 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf8ca Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf8cc Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf8e0 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf8e3 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf8e5 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf8f8 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf8fa Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf8fc Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf911 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf913 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf916 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf92a Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf92c Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf92f Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf942 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf944 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf946 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf95a Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf95d Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf95f Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf971 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf973 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf976 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf988 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf98a Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acf98d Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf9a0 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf9a3 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf9a5 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf9b8 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf9ba Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf9bd Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf9d1 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf9d3 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf9d6 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf9eb Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf9ed Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf9f0 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa04 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfa06 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa09 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa1a Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfa1d Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa1f Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa34 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfa36 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa38 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa4c Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfa4e Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa50 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa62 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfa64 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa67 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa7a Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfa7c Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa7e Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa92 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfa95 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfa97 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfaa8 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfaab Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfaad Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfac0 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfac2 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acfac4 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfad8 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfada Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfadc Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfaf0 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfaf3 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfaf5 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb08 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfb0a Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb0d Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb20 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfb22 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb24 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb38 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfb3a Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb3c Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb4e Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfb51 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb53 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb67 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfb6a Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb6c Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb7d Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfb80 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acfb82 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb92 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfb95 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfb97 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfbaa Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfbad Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfbaf Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfbc4 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfbc7 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acfbc9 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfbda Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfbdc Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfbdf Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfbf2 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfbf4 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfbf7 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc0a Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfc0c Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc0f Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc21 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfc23 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc26 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc3a Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfc3c Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc3e Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc51 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfc54 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc56 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc68 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfc6b Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc6d Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc80 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfc82 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc84 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc96 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfc98 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfc9b Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfcae Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfcb1 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfcb3 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfcc6 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfcc8 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfcca Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfcdc Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfcdf Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfce1 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfcf2 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfcf5 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfcf7 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd0b Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfd0d Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd0f Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd25 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfd28 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd2a Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd40 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfd43 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd45 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd59 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfd5b Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd5e Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd71 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfd73 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd75 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd89 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfd8c Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfd8e Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfda0 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfda3 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfda5 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfdb7 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfdb9 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfdbb Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfdce Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfdd0 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfdd2 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfde5 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfde7 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfde9 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfdfb Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfdfe Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfe00 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfe14 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfe17 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acfe21 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acfea3 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acfea5 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acfea8 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acff15 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acff46 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acff57 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acffc2 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acffc7 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acffd4 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad0042 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad0047 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad0049 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad00a0 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad00aa Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad00b5 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad010e Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad011c Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad0124 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad018a Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad018c Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad018f Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad01d9 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad01e8 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad01f3 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad0247 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad024f Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad0257 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad02c2 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad02c5 Data=6f20576f55010200]]
+i:  1
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad02c7 Data=726c642163010300]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad0321 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad033c Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad0344 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad039b Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad03a4 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad03ae Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad05d4 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad05de Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad05fa Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad06b6 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad06c9 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad0724 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad0830 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad0838 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad0844 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad091a Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad0924 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad094b Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad0a49 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad0a5e Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad0a6a Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad0da5 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad0db3 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad0ddd Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad1031 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad1047 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad10a0 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad118f Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad119e Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad11a8 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3ad1233 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3ad123c Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3ad1245 Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!

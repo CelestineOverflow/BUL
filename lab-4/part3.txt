@@ -1,0 +1,1369 @@
+
+dht_temp	dht_hum	ccs811_co2	ccs811_tvoc	ccs811_temp
+DHTxx test!
+
+49.00,29.00,0,0,25.00
+
+49.00,29.00,0,0,21.33
+
+49.00,29.00,0,0,32.62
+
+48.00,28.70,400,0,37.68
+
+C:\Users\celes\AppData\Local\Temp\ipykernel_24852\1240850715.py:7: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append({'dht_temp': float(parts[0]), 'dht_hum': float(parts[1]), 'ccs811_co2': float(parts[2]), 'ccs811_tvoc': float(parts[3]), 'ccs811_temp': float(parts[4])}, ignore_index=True)
+C:\Users\celes\AppData\Local\Temp\ipykernel_24852\1240850715.py:7: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append({'dht_temp': float(parts[0]), 'dht_hum': float(parts[1]), 'ccs811_co2': float(parts[2]), 'ccs811_tvoc': float(parts[3]), 'ccs811_temp': float(parts[4])}, ignore_index=True)
+C:\Users\celes\AppData\Local\Temp\ipykernel_24852\1240850715.py:7: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append({'dht_temp': float(parts[0]), 'dht_hum': float(parts[1]), 'ccs811_co2': float(parts[2]), 'ccs811_tvoc': float(parts[3]), 'ccs811_temp': float(parts[4])}, ignore_index=True)
+C:\Users\celes\AppData\Local\Temp\ipykernel_24852\1240850715.py:7: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append({'dht_temp': float(parts[0]), 'dht_hum': float(parts[1]), 'ccs811_co2': float(parts[2]), 'ccs811_tvoc': float(parts[3]), 'ccs811_temp': float(parts[4])}, ignore_index=True)
+C:\Users\celes\AppData\Local\Temp\ipykernel_24852\1240850715.py:7: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append({'dht_temp': float(parts[0]), 'dht_hum': float(parts[1]), 'ccs811_co2': float(parts[2]), 'ccs811_tvoc': float(parts[3]), 'ccs811_temp': float(parts[4])}, ignore_index=True)
+48.00,28.70,400,0,43.55
+
+C:\Users\celes\AppData\Local\Temp\ipykernel_24852\1240850715.py:7: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append({'dht_temp': float(parts[0]), 'dht_hum': float(parts[1]), 'ccs811_co2': float(parts[2]), 'ccs811_tvoc': float(parts[3]), 'ccs811_temp': float(parts[4])}, ignore_index=True)
+48.00,28.70,406,0,30.17
+
+
+48.00,28.80,400,0,25.56
+
+C:\Users\celes\AppData\Local\Temp\ipykernel_24852\1240850715.py:7: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append({'dht_temp': float(parts[0]), 'dht_hum': float(parts[1]), 'ccs811_co2': float(parts[2]), 'ccs811_tvoc': float(parts[3]), 'ccs811_temp': float(parts[4])}, ignore_index=True)
+48.00,28.80,400,0,27.86
+
+C:\Users\celes\AppData\Local\Temp\ipykernel_24852\1240850715.py:7: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df = df.append({'dht_temp': float(parts[0]), 'dht_hum': float(parts[1]), 'ccs811_co2': float(parts[2]), 'ccs811_tvoc': float(parts[3]), 'ccs811_temp': float(parts[4])}, ignore_index=True)
+1240 83
+Sent:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Sent:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Sent:  Chuck: b'rld!', Checksum: 355, Counter: 3
+i:  0
+match:  48656c6c85010100
+Received:  Chuck: b'Hell', Checksum: 389, Counter: 1
+Checksum is correct
+match:  6f20576f55010200
+Received:  Chuck: b'o Wo', Checksum: 341, Counter: 2
+Checksum is correct
+match:  726c642163010300
+Received:  Chuck: b'rld!', Checksum: 355, Counter: 3
+Checksum is correct
+[[CanalystMessage ID=0x300 TS=0x3acf6c7 Data=48656c6c85010100, CanalystMessage ID=0x300 TS=0x3acf6c9 Data=6f20576f55010200, CanalystMessage ID=0x300 TS=0x3acf6cc Data=726c642163010300]]
+i:  1
+[[]]
+i:  2
+[[]]
+i:  3
+[[]]
+i:  4
+[[]]
+i:  5
+[[]]
+Original message:  Hello World!
+...
+i:  5
+[[]]
+Original message:  Hello World!
+Reconstructed message:  Hello World!
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+dht_temp	dht_hum	ccs811_co2	ccs811_tvoc	ccs811_temp
+0	49.0	29.0	0.0	0.0	25.00
+1	49.0	29.0	0.0	0.0	21.33
+2	49.0	29.0	0.0	0.0	32.62
+3	48.0	28.7	400.0	0.0	37.68
+4	48.0	28.7	400.0	0.0	43.55
+5	48.0	28.7	406.0	0.0	30.17
+6	48.0	28.8	400.0	0.0	25.56
+7	48.0	28.8	400.0	0.0	27.86
+{"dht_temp":49.0,"dht_hum":29.0,"ccs811_co2":0.0,"ccs811_tvoc":0.0,"ccs811_temp":25.0}
+Sent:  Chuck: b'{"dh', Checksum: 361, Counter: 1
+Sent:  Chuck: b't_te', Checksum: 428, Counter: 2
+Sent:  Chuck: b'mp":', Checksum: 313, Counter: 3
+Sent:  Chuck: b'49.0', Checksum: 203, Counter: 4
+Sent:  Chuck: b',"dh', Checksum: 282, Counter: 5
+Sent:  Chuck: b't_hu', Checksum: 432, Counter: 6
+Sent:  Chuck: b'm":2', Checksum: 251, Counter: 7
+Sent:  Chuck: b'9.0,', Checksum: 195, Counter: 8
+Sent:  Chuck: b'"ccs', Checksum: 347, Counter: 9
+Sent:  Chuck: b'811_', Checksum: 249, Counter: 10
+Sent:  Chuck: b'co2"', Checksum: 294, Counter: 11
+Sent:  Chuck: b':0.0', Checksum: 200, Counter: 12
+Sent:  Chuck: b',"cc', Checksum: 276, Counter: 13
+Sent:  Chuck: b's811', Checksum: 269, Counter: 14
+Sent:  Chuck: b'_tvo', Checksum: 440, Counter: 15
+Sent:  Chuck: b'c":0', Checksum: 239, Counter: 16
+Sent:  Chuck: b'.0,"', Checksum: 172, Counter: 17
+Sent:  Chuck: b'ccs8', Checksum: 369, Counter: 18
+Sent:  Chuck: b'11_t', Checksum: 309, Counter: 19
+Sent:  Chuck: b'emp"', Checksum: 356, Counter: 20
+Sent:  Chuck: b':25.', Checksum: 207, Counter: 21
+Sent:  Chuck: b'0}\x00\x00', Checksum: 173, Counter: 22
+i:  0
+7b22646869010100, CanalystMessage ID=0x300 TS=0x3371a12 
+[[CanalystMessage ID=0x300 TS=0x3371a10 Data=7b22646869010100, CanalystMessage ID=0x300 TS=0x3371a12 Data=745f7465ac010200, CanalystMessage ID=0x300 TS=0x3371a15 Data=6d70223a39010300, CanalystMessage ID=0x300 TS=0x3371a17 Data=34392e30cb000400, CanalystMessage ID=0x300 TS=0x3371a1a Data=2c2264681a010500, CanalystMessage ID=0x300 TS=0x3371a1c Data=745f6875b0010600, CanalystMessage ID=0x300 TS=0x3371a1e Data=6d223a32fb000700, CanalystMessage ID=0x300 TS=0x3371a21 Data=392e302cc3000800, CanalystMessage ID=0x300 TS=0x3371a23 Data=226363735b010900, CanalystMessage ID=0x300 TS=0x3371a25 Data=3831315ff9000a00, CanalystMessage ID=0x300 TS=0x3371a28 Data=636f322226010b00, CanalystMessage ID=0x300 TS=0x3371a2a Data=3a302e30c8000c00, CanalystMessage ID=0x300 TS=0x3371a2c Data=2c22636314010d00, CanalystMessage ID=0x300 TS=0x3371a2f Data=733831310d010e00, CanalystMessage ID=0x300 TS=0x3371a31 Data=5f74766fb8010f00]]
+i:  1
+63223a30ef001000, CanalystMessage ID=0x300 TS=0x3371a36 
+[[CanalystMessage ID=0x300 TS=0x3371a33 Data=63223a30ef001000, CanalystMessage ID=0x300 TS=0x3371a36 Data=2e302c22ac001100, CanalystMessage ID=0x300 TS=0x3371a38 Data=6363733871011200]]
+i:  2
+31315f7435011300, CanalystMessage ID=0x300 TS=0x3371a3d 
+[[CanalystMessage ID=0x300 TS=0x3371a3b Data=31315f7435011300, CanalystMessage ID=0x300 TS=0x3371a3d Data=656d702264011400]]
+i:  3
+3a32352ecf001500, CanalystMessage ID=0x300 TS=0x3371a42 
+[[CanalystMessage ID=0x300 TS=0x3371a3f Data=3a32352ecf001500, CanalystMessage ID=0x300 TS=0x3371a42 Data=307d0000ad001600]]
+i:  4
+No data received
+[[]]
+i:  5
+No data received
+[[]]
+i:  6
+No data received
+[[]]
+i:  7
+No data received
+[[]]
+i:  8
+No data received
+[[]]
+i:  9
+No data received
+[[]]
+i:  10
+No data received
+[[]]
+i:  11
+No data received
+[[]]
+i:  12
+No data received
+[[]]
+i:  13
+No data received
+[[]]
+i:  14
+No data received
+[[]]
+i:  15
+No data received
+[[]]
+i:  16
+No data received
+[[]]
+i:  17
+No data received
+[[]]
+i:  18
+No data received
+[[]]
+i:  19
+No data received
+[[]]
+i:  20
+No data received
+[[]]
+i:  21
+No data received
+[[]]
+i:  22
+No data received
+[[]]
+i:  23
+No data received
+[[]]
+i:  24
+No data received
+[[]]
+i:  25
+No data received
+[[]]
+i:  26
+No data received
+[[]]
+i:  27
+No data received
+[[]]
+i:  28
+No data received
+[[]]
+i:  29
+No data received
+[[]]
+i:  30
+No data received
+[[]]
+i:  31
+No data received
+[[]]
+i:  32
+No data received
+[[]]
+i:  33
+No data received
+[[]]
+i:  34
+No data received
+[[]]
+i:  35
+No data received
+[[]]
+i:  36
+No data received
+[[]]
+i:  37
+No data received
+[[]]
+i:  38
+No data received
+[[]]
+i:  39
+No data received
+[[]]
+i:  40
+No data received
+[[]]
+i:  41
+No data received
+[[]]
+i:  42
+No data received
+[[]]
+i:  43
+No data received
+[[]]
+Original message:  {"dht_temp":49.0,"dht_hum":29.0,"ccs811_co2":0.0,"ccs811_tvoc":0.0,"ccs811_temp":25.0}
+Reconstructed message:  {"dht_temp":49.0,"dht_hum":29.0,"ccs811_co2":0.0,"ccs811_tvoc":0.0,"ccs811_temp":25.0}
+{"dht_temp":49.0,"dht_hum":29.0,"ccs811_co2":0.0,"ccs811_tvoc":0.0,"ccs811_temp":21.33}
+Sent:  Chuck: b'{"dh', Checksum: 361, Counter: 1
+Sent:  Chuck: b't_te', Checksum: 428, Counter: 2
+Sent:  Chuck: b'mp":', Checksum: 313, Counter: 3
+Sent:  Chuck: b'49.0', Checksum: 203, Counter: 4
+Sent:  Chuck: b',"dh', Checksum: 282, Counter: 5
+Sent:  Chuck: b't_hu', Checksum: 432, Counter: 6
+Sent:  Chuck: b'm":2', Checksum: 251, Counter: 7
+Sent:  Chuck: b'9.0,', Checksum: 195, Counter: 8
+Sent:  Chuck: b'"ccs', Checksum: 347, Counter: 9
+Sent:  Chuck: b'811_', Checksum: 249, Counter: 10
+Sent:  Chuck: b'co2"', Checksum: 294, Counter: 11
+Sent:  Chuck: b':0.0', Checksum: 200, Counter: 12
+Sent:  Chuck: b',"cc', Checksum: 276, Counter: 13
+Sent:  Chuck: b's811', Checksum: 269, Counter: 14
+Sent:  Chuck: b'_tvo', Checksum: 440, Counter: 15
+Sent:  Chuck: b'c":0', Checksum: 239, Counter: 16
+Sent:  Chuck: b'.0,"', Checksum: 172, Counter: 17
+Sent:  Chuck: b'ccs8', Checksum: 369, Counter: 18
+Sent:  Chuck: b'11_t', Checksum: 309, Counter: 19
+Sent:  Chuck: b'emp"', Checksum: 356, Counter: 20
+Sent:  Chuck: b':21.', Checksum: 203, Counter: 21
+Sent:  Chuck: b'33}\x00', Checksum: 227, Counter: 22
+i:  0
+7b22646869010100, CanalystMessage ID=0x300 TS=0x3371ab7 
+[[CanalystMessage ID=0x300 TS=0x3371ab5 Data=7b22646869010100, CanalystMessage ID=0x300 TS=0x3371ab7 Data=745f7465ac010200, CanalystMessage ID=0x300 TS=0x3371aba Data=6d70223a39010300, CanalystMessage ID=0x300 TS=0x3371abc Data=34392e30cb000400, CanalystMessage ID=0x300 TS=0x3371abe Data=2c2264681a010500, CanalystMessage ID=0x300 TS=0x3371ac1 Data=745f6875b0010600, CanalystMessage ID=0x300 TS=0x3371ac3 Data=6d223a32fb000700, CanalystMessage ID=0x300 TS=0x3371ac5 Data=392e302cc3000800, CanalystMessage ID=0x300 TS=0x3371ac8 Data=226363735b010900, CanalystMessage ID=0x300 TS=0x3371aca Data=3831315ff9000a00, CanalystMessage ID=0x300 TS=0x3371acc Data=636f322226010b00, CanalystMessage ID=0x300 TS=0x3371acf Data=3a302e30c8000c00]]
+i:  1
+2c22636314010d00, CanalystMessage ID=0x300 TS=0x3371ad3 
+[[CanalystMessage ID=0x300 TS=0x3371ad1 Data=2c22636314010d00, CanalystMessage ID=0x300 TS=0x3371ad3 Data=733831310d010e00, CanalystMessage ID=0x300 TS=0x3371ad6 Data=5f74766fb8010f00, CanalystMessage ID=0x300 TS=0x3371ad8 Data=63223a30ef001000, CanalystMessage ID=0x300 TS=0x3371adb Data=2e302c22ac001100]]
+i:  2
+6363733871011200, CanalystMessage ID=0x300 TS=0x3371adf 
+[[CanalystMessage ID=0x300 TS=0x3371add Data=6363733871011200, CanalystMessage ID=0x300 TS=0x3371adf Data=31315f7435011300]]
+i:  3
+656d702264011400, CanalystMessage ID=0x300 TS=0x3371ae4 
+[[CanalystMessage ID=0x300 TS=0x3371ae2 Data=656d702264011400, CanalystMessage ID=0x300 TS=0x3371ae4 Data=3a32312ecb001500]]
+i:  4
+33337d00e3001600
+[[CanalystMessage ID=0x300 TS=0x3371ae6 Data=33337d00e3001600]]
+i:  5
+No data received
+[[]]
+i:  6
+No data received
+[[]]
+i:  7
+No data received
+[[]]
+i:  8
+No data received
+[[]]
+i:  9
+No data received
+[[]]
+i:  10
+No data received
+[[]]
+i:  11
+No data received
+[[]]
+i:  12
+No data received
+[[]]
+i:  13
+No data received
+[[]]
+i:  14
+No data received
+[[]]
+i:  15
+No data received
+[[]]
+i:  16
+No data received
+[[]]
+i:  17
+No data received
+[[]]
+i:  18
+No data received
+[[]]
+i:  19
+No data received
+[[]]
+i:  20
+No data received
+[[]]
+i:  21
+No data received
+[[]]
+i:  22
+No data received
+[[]]
+i:  23
+No data received
+[[]]
+i:  24
+No data received
+[[]]
+i:  25
+No data received
+[[]]
+i:  26
+No data received
+[[]]
+i:  27
+No data received
+[[]]
+i:  28
+No data received
+[[]]
+i:  29
+No data received
+[[]]
+i:  30
+No data received
+[[]]
+i:  31
+No data received
+[[]]
+i:  32
+No data received
+[[]]
+i:  33
+No data received
+[[]]
+i:  34
+No data received
+[[]]
+i:  35
+No data received
+[[]]
+i:  36
+No data received
+[[]]
+i:  37
+No data received
+[[]]
+i:  38
+No data received
+[[]]
+i:  39
+No data received
+[[]]
+i:  40
+No data received
+[[]]
+i:  41
+No data received
+[[]]
+i:  42
+No data received
+[[]]
+i:  43
+No data received
+[[]]
+Original message:  {"dht_temp":49.0,"dht_hum":29.0,"ccs811_co2":0.0,"ccs811_tvoc":0.0,"ccs811_temp":21.33}
+Reconstructed message:  {"dht_temp":49.0,"dht_hum":29.0,"ccs811_co2":0.0,"ccs811_tvoc":0.0,"ccs811_temp":21.33}
+{"dht_temp":49.0,"dht_hum":29.0,"ccs811_co2":0.0,"ccs811_tvoc":0.0,"ccs811_temp":32.62}
+Sent:  Chuck: b'{"dh', Checksum: 361, Counter: 1
+Sent:  Chuck: b't_te', Checksum: 428, Counter: 2
+Sent:  Chuck: b'mp":', Checksum: 313, Counter: 3
+Sent:  Chuck: b'49.0', Checksum: 203, Counter: 4
+Sent:  Chuck: b',"dh', Checksum: 282, Counter: 5
+Sent:  Chuck: b't_hu', Checksum: 432, Counter: 6
+Sent:  Chuck: b'm":2', Checksum: 251, Counter: 7
+Sent:  Chuck: b'9.0,', Checksum: 195, Counter: 8
+Sent:  Chuck: b'"ccs', Checksum: 347, Counter: 9
+Sent:  Chuck: b'811_', Checksum: 249, Counter: 10
+Sent:  Chuck: b'co2"', Checksum: 294, Counter: 11
+Sent:  Chuck: b':0.0', Checksum: 200, Counter: 12
+Sent:  Chuck: b',"cc', Checksum: 276, Counter: 13
+Sent:  Chuck: b's811', Checksum: 269, Counter: 14
+Sent:  Chuck: b'_tvo', Checksum: 440, Counter: 15
+Sent:  Chuck: b'c":0', Checksum: 239, Counter: 16
+Sent:  Chuck: b'.0,"', Checksum: 172, Counter: 17
+Sent:  Chuck: b'ccs8', Checksum: 369, Counter: 18
+Sent:  Chuck: b'11_t', Checksum: 309, Counter: 19
+Sent:  Chuck: b'emp"', Checksum: 356, Counter: 20
+Sent:  Chuck: b':32.', Checksum: 205, Counter: 21
+Sent:  Chuck: b'62}\x00', Checksum: 229, Counter: 22
+i:  0
+7b22646869010100, CanalystMessage ID=0x300 TS=0x3371b59 
+[[CanalystMessage ID=0x300 TS=0x3371b57 Data=7b22646869010100, CanalystMessage ID=0x300 TS=0x3371b59 Data=745f7465ac010200, CanalystMessage ID=0x300 TS=0x3371b5c Data=6d70223a39010300, CanalystMessage ID=0x300 TS=0x3371b5e Data=34392e30cb000400, CanalystMessage ID=0x300 TS=0x3371b60 Data=2c2264681a010500, CanalystMessage ID=0x300 TS=0x3371b63 Data=745f6875b0010600, CanalystMessage ID=0x300 TS=0x3371b65 Data=6d223a32fb000700, CanalystMessage ID=0x300 TS=0x3371b67 Data=392e302cc3000800, CanalystMessage ID=0x300 TS=0x3371b6a Data=226363735b010900, CanalystMessage ID=0x300 TS=0x3371b6c Data=3831315ff9000a00, CanalystMessage ID=0x300 TS=0x3371b6f Data=636f322226010b00, CanalystMessage ID=0x300 TS=0x3371b71 Data=3a302e30c8000c00, CanalystMessage ID=0x300 TS=0x3371b73 Data=2c22636314010d00, CanalystMessage ID=0x300 TS=0x3371b76 Data=733831310d010e00, CanalystMessage ID=0x300 TS=0x3371b78 Data=5f74766fb8010f00]]
+i:  1
+63223a30ef001000, CanalystMessage ID=0x300 TS=0x3371b7d 
+[[CanalystMessage ID=0x300 TS=0x3371b7a Data=63223a30ef001000, CanalystMessage ID=0x300 TS=0x3371b7d Data=2e302c22ac001100]]
+i:  2
+6363733871011200, CanalystMessage ID=0x300 TS=0x3371b81 
+[[CanalystMessage ID=0x300 TS=0x3371b7f Data=6363733871011200, CanalystMessage ID=0x300 TS=0x3371b81 Data=31315f7435011300]]
+i:  3
+No data received
+[[]]
+i:  4
+656d702264011400, CanalystMessage ID=0x300 TS=0x3371b86 
+[[CanalystMessage ID=0x300 TS=0x3371b84 Data=656d702264011400, CanalystMessage ID=0x300 TS=0x3371b86 Data=3a33322ecd001500, CanalystMessage ID=0x300 TS=0x3371b88 Data=36327d00e5001600]]
+i:  5
+No data received
+[[]]
+i:  6
+No data received
+[[]]
+i:  7
+No data received
+[[]]
+i:  8
+No data received
+[[]]
+i:  9
+No data received
+[[]]
+i:  10
+No data received
+[[]]
+i:  11
+No data received
+[[]]
+i:  12
+No data received
+[[]]
+i:  13
+No data received
+[[]]
+i:  14
+No data received
+[[]]
+i:  15
+No data received
+[[]]
+i:  16
+No data received
+[[]]
+i:  17
+No data received
+[[]]
+i:  18
+No data received
+[[]]
+i:  19
+No data received
+[[]]
+i:  20
+No data received
+[[]]
+i:  21
+No data received
+[[]]
+i:  22
+No data received
+[[]]
+i:  23
+No data received
+[[]]
+i:  24
+No data received
+[[]]
+i:  25
+No data received
+[[]]
+i:  26
+No data received
+[[]]
+i:  27
+No data received
+[[]]
+i:  28
+No data received
+[[]]
+i:  29
+No data received
+[[]]
+i:  30
+No data received
+[[]]
+i:  31
+No data received
+[[]]
+i:  32
+No data received
+[[]]
+i:  33
+No data received
+[[]]
+i:  34
+No data received
+[[]]
+i:  35
+No data received
+[[]]
+i:  36
+No data received
+[[]]
+i:  37
+No data received
+[[]]
+i:  38
+No data received
+[[]]
+i:  39
+No data received
+[[]]
+i:  40
+No data received
+[[]]
+i:  41
+No data received
+[[]]
+i:  42
+No data received
+[[]]
+i:  43
+No data received
+[[]]
+Original message:  {"dht_temp":49.0,"dht_hum":29.0,"ccs811_co2":0.0,"ccs811_tvoc":0.0,"ccs811_temp":32.62}
+Reconstructed message:  {"dht_temp":49.0,"dht_hum":29.0,"ccs811_co2":0.0,"ccs811_tvoc":0.0,"ccs811_temp":32.62}
+{"dht_temp":48.0,"dht_hum":28.7,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":37.68}
+Sent:  Chuck: b'{"dh', Checksum: 361, Counter: 1
+Sent:  Chuck: b't_te', Checksum: 428, Counter: 2
+Sent:  Chuck: b'mp":', Checksum: 313, Counter: 3
+Sent:  Chuck: b'48.0', Checksum: 202, Counter: 4
+Sent:  Chuck: b',"dh', Checksum: 282, Counter: 5
+Sent:  Chuck: b't_hu', Checksum: 432, Counter: 6
+Sent:  Chuck: b'm":2', Checksum: 251, Counter: 7
+Sent:  Chuck: b'8.7,', Checksum: 201, Counter: 8
+Sent:  Chuck: b'"ccs', Checksum: 347, Counter: 9
+Sent:  Chuck: b'811_', Checksum: 249, Counter: 10
+Sent:  Chuck: b'co2"', Checksum: 294, Counter: 11
+Sent:  Chuck: b':400', Checksum: 206, Counter: 12
+Sent:  Chuck: b'.0,"', Checksum: 172, Counter: 13
+Sent:  Chuck: b'ccs8', Checksum: 369, Counter: 14
+Sent:  Chuck: b'11_t', Checksum: 309, Counter: 15
+Sent:  Chuck: b'voc"', Checksum: 362, Counter: 16
+Sent:  Chuck: b':0.0', Checksum: 200, Counter: 17
+Sent:  Chuck: b',"cc', Checksum: 276, Counter: 18
+Sent:  Chuck: b's811', Checksum: 269, Counter: 19
+Sent:  Chuck: b'_tem', Checksum: 421, Counter: 20
+Sent:  Chuck: b'p":3', Checksum: 255, Counter: 21
+Sent:  Chuck: b'7.68', Checksum: 211, Counter: 22
+Sent:  Chuck: b'}\x00\x00\x00', Checksum: 125, Counter: 23
+i:  0
+7b22646869010100, CanalystMessage ID=0x300 TS=0x3371bfb 
+[[CanalystMessage ID=0x300 TS=0x3371bf8 Data=7b22646869010100, CanalystMessage ID=0x300 TS=0x3371bfb Data=745f7465ac010200, CanalystMessage ID=0x300 TS=0x3371bfd Data=6d70223a39010300, CanalystMessage ID=0x300 TS=0x3371bff Data=34382e30ca000400, CanalystMessage ID=0x300 TS=0x3371c02 Data=2c2264681a010500, CanalystMessage ID=0x300 TS=0x3371c04 Data=745f6875b0010600, CanalystMessage ID=0x300 TS=0x3371c06 Data=6d223a32fb000700, CanalystMessage ID=0x300 TS=0x3371c09 Data=382e372cc9000800, CanalystMessage ID=0x300 TS=0x3371c0b Data=226363735b010900, CanalystMessage ID=0x300 TS=0x3371c0e Data=3831315ff9000a00, CanalystMessage ID=0x300 TS=0x3371c10 Data=636f322226010b00, CanalystMessage ID=0x300 TS=0x3371c12 Data=3a343030ce000c00, CanalystMessage ID=0x300 TS=0x3371c15 Data=2e302c22ac000d00, CanalystMessage ID=0x300 TS=0x3371c17 Data=6363733871010e00, CanalystMessage ID=0x300 TS=0x3371c19 Data=31315f7435010f00]]
+i:  1
+766f63226a011000, CanalystMessage ID=0x300 TS=0x3371c1e 
+[[CanalystMessage ID=0x300 TS=0x3371c1c Data=766f63226a011000, CanalystMessage ID=0x300 TS=0x3371c1e Data=3a302e30c8001100, CanalystMessage ID=0x300 TS=0x3371c20 Data=2c22636314011200]]
+i:  2
+733831310d011300, CanalystMessage ID=0x300 TS=0x3371c25 
+[[CanalystMessage ID=0x300 TS=0x3371c23 Data=733831310d011300, CanalystMessage ID=0x300 TS=0x3371c25 Data=5f74656da5011400]]
+i:  3
+70223a33ff001500, CanalystMessage ID=0x300 TS=0x3371c2a 
+[[CanalystMessage ID=0x300 TS=0x3371c27 Data=70223a33ff001500, CanalystMessage ID=0x300 TS=0x3371c2a Data=372e3638d3001600]]
+i:  4
+No data received
+[[]]
+i:  5
+7d0000007d001700
+[[CanalystMessage ID=0x300 TS=0x3371c2c Data=7d0000007d001700]]
+i:  6
+No data received
+[[]]
+i:  7
+No data received
+[[]]
+i:  8
+No data received
+[[]]
+i:  9
+No data received
+[[]]
+i:  10
+No data received
+[[]]
+i:  11
+No data received
+[[]]
+i:  12
+No data received
+[[]]
+i:  13
+No data received
+[[]]
+i:  14
+No data received
+[[]]
+i:  15
+No data received
+[[]]
+i:  16
+No data received
+[[]]
+i:  17
+No data received
+[[]]
+i:  18
+No data received
+[[]]
+i:  19
+No data received
+[[]]
+i:  20
+No data received
+[[]]
+i:  21
+No data received
+[[]]
+i:  22
+No data received
+[[]]
+i:  23
+No data received
+[[]]
+i:  24
+No data received
+[[]]
+i:  25
+No data received
+[[]]
+i:  26
+No data received
+[[]]
+i:  27
+No data received
+[[]]
+i:  28
+No data received
+[[]]
+i:  29
+No data received
+[[]]
+i:  30
+No data received
+[[]]
+i:  31
+No data received
+[[]]
+i:  32
+No data received
+[[]]
+i:  33
+No data received
+[[]]
+i:  34
+No data received
+[[]]
+i:  35
+No data received
+[[]]
+i:  36
+No data received
+[[]]
+i:  37
+No data received
+[[]]
+i:  38
+No data received
+[[]]
+i:  39
+No data received
+[[]]
+i:  40
+No data received
+[[]]
+i:  41
+No data received
+[[]]
+i:  42
+No data received
+[[]]
+i:  43
+No data received
+[[]]
+i:  44
+No data received
+[[]]
+i:  45
+No data received
+[[]]
+Original message:  {"dht_temp":48.0,"dht_hum":28.7,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":37.68}
+Reconstructed message:  {"dht_temp":48.0,"dht_hum":28.7,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":37.68}
+{"dht_temp":48.0,"dht_hum":28.7,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":43.55}
+Sent:  Chuck: b'{"dh', Checksum: 361, Counter: 1
+Sent:  Chuck: b't_te', Checksum: 428, Counter: 2
+Sent:  Chuck: b'mp":', Checksum: 313, Counter: 3
+Sent:  Chuck: b'48.0', Checksum: 202, Counter: 4
+Sent:  Chuck: b',"dh', Checksum: 282, Counter: 5
+Sent:  Chuck: b't_hu', Checksum: 432, Counter: 6
+Sent:  Chuck: b'm":2', Checksum: 251, Counter: 7
+Sent:  Chuck: b'8.7,', Checksum: 201, Counter: 8
+Sent:  Chuck: b'"ccs', Checksum: 347, Counter: 9
+Sent:  Chuck: b'811_', Checksum: 249, Counter: 10
+Sent:  Chuck: b'co2"', Checksum: 294, Counter: 11
+Sent:  Chuck: b':400', Checksum: 206, Counter: 12
+Sent:  Chuck: b'.0,"', Checksum: 172, Counter: 13
+Sent:  Chuck: b'ccs8', Checksum: 369, Counter: 14
+Sent:  Chuck: b'11_t', Checksum: 309, Counter: 15
+Sent:  Chuck: b'voc"', Checksum: 362, Counter: 16
+Sent:  Chuck: b':0.0', Checksum: 200, Counter: 17
+Sent:  Chuck: b',"cc', Checksum: 276, Counter: 18
+Sent:  Chuck: b's811', Checksum: 269, Counter: 19
+Sent:  Chuck: b'_tem', Checksum: 421, Counter: 20
+Sent:  Chuck: b'p":4', Checksum: 256, Counter: 21
+Sent:  Chuck: b'3.55', Checksum: 203, Counter: 22
+Sent:  Chuck: b'}\x00\x00\x00', Checksum: 125, Counter: 23
+i:  0
+7b22646869010100, CanalystMessage ID=0x300 TS=0x3371ca6 
+[[CanalystMessage ID=0x300 TS=0x3371ca4 Data=7b22646869010100, CanalystMessage ID=0x300 TS=0x3371ca6 Data=745f7465ac010200, CanalystMessage ID=0x300 TS=0x3371ca9 Data=6d70223a39010300, CanalystMessage ID=0x300 TS=0x3371cab Data=34382e30ca000400, CanalystMessage ID=0x300 TS=0x3371cae Data=2c2264681a010500, CanalystMessage ID=0x300 TS=0x3371cb0 Data=745f6875b0010600, CanalystMessage ID=0x300 TS=0x3371cb2 Data=6d223a32fb000700, CanalystMessage ID=0x300 TS=0x3371cb5 Data=382e372cc9000800, CanalystMessage ID=0x300 TS=0x3371cb7 Data=226363735b010900, CanalystMessage ID=0x300 TS=0x3371cb9 Data=3831315ff9000a00, CanalystMessage ID=0x300 TS=0x3371cbc Data=636f322226010b00, CanalystMessage ID=0x300 TS=0x3371cbe Data=3a343030ce000c00, CanalystMessage ID=0x300 TS=0x3371cc1 Data=2e302c22ac000d00, CanalystMessage ID=0x300 TS=0x3371cc3 Data=6363733871010e00, CanalystMessage ID=0x300 TS=0x3371cc5 Data=31315f7435010f00]]
+i:  1
+766f63226a011000, CanalystMessage ID=0x300 TS=0x3371cca 
+[[CanalystMessage ID=0x300 TS=0x3371cc7 Data=766f63226a011000, CanalystMessage ID=0x300 TS=0x3371cca Data=3a302e30c8001100, CanalystMessage ID=0x300 TS=0x3371ccc Data=2c22636314011200, CanalystMessage ID=0x300 TS=0x3371cce Data=733831310d011300]]
+i:  2
+5f74656da5011400, CanalystMessage ID=0x300 TS=0x3371cd3 
+[[CanalystMessage ID=0x300 TS=0x3371cd1 Data=5f74656da5011400, CanalystMessage ID=0x300 TS=0x3371cd3 Data=70223a3400011500]]
+i:  3
+332e3535cb001600, CanalystMessage ID=0x300 TS=0x3371cd8 
+[[CanalystMessage ID=0x300 TS=0x3371cd6 Data=332e3535cb001600, CanalystMessage ID=0x300 TS=0x3371cd8 Data=7d0000007d001700]]
+i:  4
+No data received
+[[]]
+i:  5
+No data received
+[[]]
+i:  6
+No data received
+[[]]
+i:  7
+No data received
+[[]]
+i:  8
+No data received
+[[]]
+i:  9
+No data received
+[[]]
+i:  10
+No data received
+[[]]
+i:  11
+No data received
+[[]]
+i:  12
+No data received
+[[]]
+i:  13
+No data received
+[[]]
+i:  14
+No data received
+[[]]
+i:  15
+No data received
+[[]]
+i:  16
+No data received
+[[]]
+i:  17
+No data received
+[[]]
+i:  18
+No data received
+[[]]
+i:  19
+No data received
+[[]]
+i:  20
+No data received
+[[]]
+i:  21
+No data received
+[[]]
+i:  22
+No data received
+[[]]
+i:  23
+No data received
+[[]]
+i:  24
+No data received
+[[]]
+i:  25
+No data received
+[[]]
+i:  26
+No data received
+[[]]
+i:  27
+No data received
+[[]]
+i:  28
+No data received
+[[]]
+i:  29
+No data received
+[[]]
+i:  30
+No data received
+[[]]
+i:  31
+No data received
+[[]]
+i:  32
+No data received
+[[]]
+i:  33
+No data received
+[[]]
+i:  34
+No data received
+[[]]
+i:  35
+No data received
+[[]]
+i:  36
+No data received
+[[]]
+i:  37
+No data received
+[[]]
+i:  38
+No data received
+[[]]
+i:  39
+No data received
+[[]]
+i:  40
+No data received
+[[]]
+i:  41
+No data received
+[[]]
+i:  42
+No data received
+[[]]
+i:  43
+No data received
+[[]]
+i:  44
+No data received
+[[]]
+i:  45
+No data received
+[[]]
+Original message:  {"dht_temp":48.0,"dht_hum":28.7,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":43.55}
+Reconstructed message:  {"dht_temp":48.0,"dht_hum":28.7,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":43.55}
+{"dht_temp":48.0,"dht_hum":28.7,"ccs811_co2":406.0,"ccs811_tvoc":0.0,"ccs811_temp":30.17}
+Sent:  Chuck: b'{"dh', Checksum: 361, Counter: 1
+Sent:  Chuck: b't_te', Checksum: 428, Counter: 2
+Sent:  Chuck: b'mp":', Checksum: 313, Counter: 3
+Sent:  Chuck: b'48.0', Checksum: 202, Counter: 4
+Sent:  Chuck: b',"dh', Checksum: 282, Counter: 5
+Sent:  Chuck: b't_hu', Checksum: 432, Counter: 6
+Sent:  Chuck: b'm":2', Checksum: 251, Counter: 7
+Sent:  Chuck: b'8.7,', Checksum: 201, Counter: 8
+Sent:  Chuck: b'"ccs', Checksum: 347, Counter: 9
+Sent:  Chuck: b'811_', Checksum: 249, Counter: 10
+Sent:  Chuck: b'co2"', Checksum: 294, Counter: 11
+Sent:  Chuck: b':406', Checksum: 212, Counter: 12
+Sent:  Chuck: b'.0,"', Checksum: 172, Counter: 13
+Sent:  Chuck: b'ccs8', Checksum: 369, Counter: 14
+Sent:  Chuck: b'11_t', Checksum: 309, Counter: 15
+Sent:  Chuck: b'voc"', Checksum: 362, Counter: 16
+Sent:  Chuck: b':0.0', Checksum: 200, Counter: 17
+Sent:  Chuck: b',"cc', Checksum: 276, Counter: 18
+Sent:  Chuck: b's811', Checksum: 269, Counter: 19
+Sent:  Chuck: b'_tem', Checksum: 421, Counter: 20
+Sent:  Chuck: b'p":3', Checksum: 255, Counter: 21
+Sent:  Chuck: b'0.17', Checksum: 198, Counter: 22
+Sent:  Chuck: b'}\x00\x00\x00', Checksum: 125, Counter: 23
+i:  0
+7b22646869010100, CanalystMessage ID=0x300 TS=0x3371d4a 
+[[CanalystMessage ID=0x300 TS=0x3371d47 Data=7b22646869010100, CanalystMessage ID=0x300 TS=0x3371d4a Data=745f7465ac010200, CanalystMessage ID=0x300 TS=0x3371d4c Data=6d70223a39010300, CanalystMessage ID=0x300 TS=0x3371d4f Data=34382e30ca000400, CanalystMessage ID=0x300 TS=0x3371d51 Data=2c2264681a010500, CanalystMessage ID=0x300 TS=0x3371d53 Data=745f6875b0010600, CanalystMessage ID=0x300 TS=0x3371d56 Data=6d223a32fb000700, CanalystMessage ID=0x300 TS=0x3371d58 Data=382e372cc9000800, CanalystMessage ID=0x300 TS=0x3371d5a Data=226363735b010900, CanalystMessage ID=0x300 TS=0x3371d5d Data=3831315ff9000a00, CanalystMessage ID=0x300 TS=0x3371d5f Data=636f322226010b00, CanalystMessage ID=0x300 TS=0x3371d61 Data=3a343036d4000c00]]
+i:  1
+2e302c22ac000d00, CanalystMessage ID=0x300 TS=0x3371d66 
+[[CanalystMessage ID=0x300 TS=0x3371d64 Data=2e302c22ac000d00, CanalystMessage ID=0x300 TS=0x3371d66 Data=6363733871010e00, CanalystMessage ID=0x300 TS=0x3371d68 Data=31315f7435010f00, CanalystMessage ID=0x300 TS=0x3371d6b Data=766f63226a011000]]
+i:  2
+3a302e30c8001100, CanalystMessage ID=0x300 TS=0x3371d6f 
+[[CanalystMessage ID=0x300 TS=0x3371d6d Data=3a302e30c8001100, CanalystMessage ID=0x300 TS=0x3371d6f Data=2c22636314011200]]
+i:  3
+733831310d011300, CanalystMessage ID=0x300 TS=0x3371d74 
+[[CanalystMessage ID=0x300 TS=0x3371d72 Data=733831310d011300, CanalystMessage ID=0x300 TS=0x3371d74 Data=5f74656da5011400]]
+i:  4
+70223a33ff001500, CanalystMessage ID=0x300 TS=0x3371d79 
+[[CanalystMessage ID=0x300 TS=0x3371d77 Data=70223a33ff001500, CanalystMessage ID=0x300 TS=0x3371d79 Data=302e3137c6001600]]
+i:  5
+7d0000007d001700
+[[CanalystMessage ID=0x300 TS=0x3371d7b Data=7d0000007d001700]]
+i:  6
+No data received
+[[]]
+i:  7
+No data received
+[[]]
+i:  8
+No data received
+[[]]
+i:  9
+No data received
+[[]]
+i:  10
+No data received
+[[]]
+i:  11
+No data received
+[[]]
+i:  12
+No data received
+[[]]
+i:  13
+No data received
+[[]]
+i:  14
+No data received
+[[]]
+i:  15
+No data received
+[[]]
+i:  16
+No data received
+[[]]
+i:  17
+No data received
+[[]]
+i:  18
+No data received
+[[]]
+i:  19
+No data received
+[[]]
+i:  20
+No data received
+[[]]
+i:  21
+No data received
+[[]]
+i:  22
+No data received
+[[]]
+i:  23
+No data received
+[[]]
+i:  24
+No data received
+[[]]
+i:  25
+No data received
+[[]]
+i:  26
+No data received
+[[]]
+i:  27
+No data received
+[[]]
+i:  28
+No data received
+[[]]
+i:  29
+No data received
+[[]]
+i:  30
+No data received
+[[]]
+i:  31
+No data received
+[[]]
+i:  32
+No data received
+[[]]
+i:  33
+No data received
+[[]]
+i:  34
+No data received
+[[]]
+i:  35
+No data received
+[[]]
+i:  36
+No data received
+[[]]
+i:  37
+No data received
+[[]]
+i:  38
+No data received
+[[]]
+i:  39
+No data received
+[[]]
+i:  40
+No data received
+[[]]
+i:  41
+No data received
+[[]]
+i:  42
+No data received
+[[]]
+i:  43
+No data received
+[[]]
+i:  44
+No data received
+[[]]
+i:  45
+No data received
+[[]]
+Original message:  {"dht_temp":48.0,"dht_hum":28.7,"ccs811_co2":406.0,"ccs811_tvoc":0.0,"ccs811_temp":30.17}
+Reconstructed message:  {"dht_temp":48.0,"dht_hum":28.7,"ccs811_co2":406.0,"ccs811_tvoc":0.0,"ccs811_temp":30.17}
+{"dht_temp":48.0,"dht_hum":28.8,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":25.56}
+Sent:  Chuck: b'{"dh', Checksum: 361, Counter: 1
+Sent:  Chuck: b't_te', Checksum: 428, Counter: 2
+Sent:  Chuck: b'mp":', Checksum: 313, Counter: 3
+Sent:  Chuck: b'48.0', Checksum: 202, Counter: 4
+Sent:  Chuck: b',"dh', Checksum: 282, Counter: 5
+Sent:  Chuck: b't_hu', Checksum: 432, Counter: 6
+Sent:  Chuck: b'm":2', Checksum: 251, Counter: 7
+Sent:  Chuck: b'8.8,', Checksum: 202, Counter: 8
+Sent:  Chuck: b'"ccs', Checksum: 347, Counter: 9
+Sent:  Chuck: b'811_', Checksum: 249, Counter: 10
+Sent:  Chuck: b'co2"', Checksum: 294, Counter: 11
+Sent:  Chuck: b':400', Checksum: 206, Counter: 12
+Sent:  Chuck: b'.0,"', Checksum: 172, Counter: 13
+Sent:  Chuck: b'ccs8', Checksum: 369, Counter: 14
+Sent:  Chuck: b'11_t', Checksum: 309, Counter: 15
+Sent:  Chuck: b'voc"', Checksum: 362, Counter: 16
+Sent:  Chuck: b':0.0', Checksum: 200, Counter: 17
+Sent:  Chuck: b',"cc', Checksum: 276, Counter: 18
+Sent:  Chuck: b's811', Checksum: 269, Counter: 19
+Sent:  Chuck: b'_tem', Checksum: 421, Counter: 20
+Sent:  Chuck: b'p":2', Checksum: 254, Counter: 21
+Sent:  Chuck: b'5.56', Checksum: 206, Counter: 22
+Sent:  Chuck: b'}\x00\x00\x00', Checksum: 125, Counter: 23
+i:  0
+7b22646869010100, CanalystMessage ID=0x300 TS=0x3371df1 
+[[CanalystMessage ID=0x300 TS=0x3371def Data=7b22646869010100, CanalystMessage ID=0x300 TS=0x3371df1 Data=745f7465ac010200, CanalystMessage ID=0x300 TS=0x3371df4 Data=6d70223a39010300, CanalystMessage ID=0x300 TS=0x3371df6 Data=34382e30ca000400, CanalystMessage ID=0x300 TS=0x3371df8 Data=2c2264681a010500, CanalystMessage ID=0x300 TS=0x3371dfa Data=745f6875b0010600, CanalystMessage ID=0x300 TS=0x3371dfd Data=6d223a32fb000700, CanalystMessage ID=0x300 TS=0x3371dff Data=382e382cca000800, CanalystMessage ID=0x300 TS=0x3371e02 Data=226363735b010900, CanalystMessage ID=0x300 TS=0x3371e04 Data=3831315ff9000a00, CanalystMessage ID=0x300 TS=0x3371e06 Data=636f322226010b00, CanalystMessage ID=0x300 TS=0x3371e09 Data=3a343030ce000c00]]
+i:  1
+2e302c22ac000d00, CanalystMessage ID=0x300 TS=0x3371e0d 
+[[CanalystMessage ID=0x300 TS=0x3371e0b Data=2e302c22ac000d00, CanalystMessage ID=0x300 TS=0x3371e0d Data=6363733871010e00, CanalystMessage ID=0x300 TS=0x3371e10 Data=31315f7435010f00, CanalystMessage ID=0x300 TS=0x3371e12 Data=766f63226a011000, CanalystMessage ID=0x300 TS=0x3371e14 Data=3a302e30c8001100]]
+i:  2
+2c22636314011200, CanalystMessage ID=0x300 TS=0x3371e19 
+[[CanalystMessage ID=0x300 TS=0x3371e17 Data=2c22636314011200, CanalystMessage ID=0x300 TS=0x3371e19 Data=733831310d011300, CanalystMessage ID=0x300 TS=0x3371e1c Data=5f74656da5011400]]
+i:  3
+No data received
+[[]]
+i:  4
+70223a32fe001500, CanalystMessage ID=0x300 TS=0x3371e20 
+[[CanalystMessage ID=0x300 TS=0x3371e1e Data=70223a32fe001500, CanalystMessage ID=0x300 TS=0x3371e20 Data=352e3536ce001600]]
+i:  5
+7d0000007d001700
+[[CanalystMessage ID=0x300 TS=0x3371e23 Data=7d0000007d001700]]
+i:  6
+No data received
+[[]]
+i:  7
+No data received
+[[]]
+i:  8
+No data received
+[[]]
+i:  9
+No data received
+[[]]
+i:  10
+No data received
+[[]]
+i:  11
+No data received
+[[]]
+i:  12
+No data received
+[[]]
+i:  13
+No data received
+[[]]
+i:  14
+No data received
+[[]]
+i:  15
+No data received
+[[]]
+i:  16
+No data received
+[[]]
+i:  17
+No data received
+[[]]
+i:  18
+No data received
+[[]]
+i:  19
+No data received
+[[]]
+i:  20
+No data received
+[[]]
+i:  21
+No data received
+[[]]
+i:  22
+No data received
+[[]]
+i:  23
+No data received
+[[]]
+i:  24
+No data received
+[[]]
+i:  25
+No data received
+[[]]
+i:  26
+No data received
+[[]]
+i:  27
+No data received
+[[]]
+i:  28
+No data received
+[[]]
+i:  29
+No data received
+[[]]
+i:  30
+No data received
+[[]]
+i:  31
+No data received
+[[]]
+i:  32
+No data received
+[[]]
+i:  33
+No data received
+[[]]
+i:  34
+No data received
+[[]]
+i:  35
+No data received
+[[]]
+i:  36
+No data received
+[[]]
+i:  37
+No data received
+[[]]
+i:  38
+No data received
+[[]]
+i:  39
+No data received
+[[]]
+i:  40
+No data received
+[[]]
+i:  41
+No data received
+[[]]
+i:  42
+No data received
+[[]]
+i:  43
+No data received
+[[]]
+i:  44
+No data received
+[[]]
+i:  45
+No data received
+[[]]
+Original message:  {"dht_temp":48.0,"dht_hum":28.8,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":25.56}
+Reconstructed message:  {"dht_temp":48.0,"dht_hum":28.8,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":25.56}
+{"dht_temp":48.0,"dht_hum":28.8,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":27.86}
+Sent:  Chuck: b'{"dh', Checksum: 361, Counter: 1
+Sent:  Chuck: b't_te', Checksum: 428, Counter: 2
+Sent:  Chuck: b'mp":', Checksum: 313, Counter: 3
+Sent:  Chuck: b'48.0', Checksum: 202, Counter: 4
+Sent:  Chuck: b',"dh', Checksum: 282, Counter: 5
+Sent:  Chuck: b't_hu', Checksum: 432, Counter: 6
+Sent:  Chuck: b'm":2', Checksum: 251, Counter: 7
+Sent:  Chuck: b'8.8,', Checksum: 202, Counter: 8
+Sent:  Chuck: b'"ccs', Checksum: 347, Counter: 9
+Sent:  Chuck: b'811_', Checksum: 249, Counter: 10
+Sent:  Chuck: b'co2"', Checksum: 294, Counter: 11
+Sent:  Chuck: b':400', Checksum: 206, Counter: 12
+Sent:  Chuck: b'.0,"', Checksum: 172, Counter: 13
+Sent:  Chuck: b'ccs8', Checksum: 369, Counter: 14
+Sent:  Chuck: b'11_t', Checksum: 309, Counter: 15
+Sent:  Chuck: b'voc"', Checksum: 362, Counter: 16
+Sent:  Chuck: b':0.0', Checksum: 200, Counter: 17
+Sent:  Chuck: b',"cc', Checksum: 276, Counter: 18
+Sent:  Chuck: b's811', Checksum: 269, Counter: 19
+Sent:  Chuck: b'_tem', Checksum: 421, Counter: 20
+Sent:  Chuck: b'p":2', Checksum: 254, Counter: 21
+Sent:  Chuck: b'7.86', Checksum: 211, Counter: 22
+Sent:  Chuck: b'}\x00\x00\x00', Checksum: 125, Counter: 23
+i:  0
+7b22646869010100, CanalystMessage ID=0x300 TS=0x3371e91 
+[[CanalystMessage ID=0x300 TS=0x3371e8e Data=7b22646869010100, CanalystMessage ID=0x300 TS=0x3371e91 Data=745f7465ac010200, CanalystMessage ID=0x300 TS=0x3371e93 Data=6d70223a39010300, CanalystMessage ID=0x300 TS=0x3371e95 Data=34382e30ca000400, CanalystMessage ID=0x300 TS=0x3371e98 Data=2c2264681a010500, CanalystMessage ID=0x300 TS=0x3371e9a Data=745f6875b0010600, CanalystMessage ID=0x300 TS=0x3371e9c Data=6d223a32fb000700, CanalystMessage ID=0x300 TS=0x3371e9f Data=382e382cca000800, CanalystMessage ID=0x300 TS=0x3371ea1 Data=226363735b010900, CanalystMessage ID=0x300 TS=0x3371ea4 Data=3831315ff9000a00, CanalystMessage ID=0x300 TS=0x3371ea6 Data=636f322226010b00, CanalystMessage ID=0x300 TS=0x3371ea8 Data=3a343030ce000c00, CanalystMessage ID=0x300 TS=0x3371eab Data=2e302c22ac000d00, CanalystMessage ID=0x300 TS=0x3371ead Data=6363733871010e00, CanalystMessage ID=0x300 TS=0x3371eaf Data=31315f7435010f00]]
+i:  1
+766f63226a011000, CanalystMessage ID=0x300 TS=0x3371eb4 
+[[CanalystMessage ID=0x300 TS=0x3371eb2 Data=766f63226a011000, CanalystMessage ID=0x300 TS=0x3371eb4 Data=3a302e30c8001100, CanalystMessage ID=0x300 TS=0x3371eb6 Data=2c22636314011200, CanalystMessage ID=0x300 TS=0x3371eb9 Data=733831310d011300]]
+i:  2
+5f74656da5011400
+[[CanalystMessage ID=0x300 TS=0x3371ebb Data=5f74656da5011400]]
+i:  3
+70223a32fe001500, CanalystMessage ID=0x300 TS=0x3371ec0 
+[[CanalystMessage ID=0x300 TS=0x3371ebd Data=70223a32fe001500, CanalystMessage ID=0x300 TS=0x3371ec0 Data=372e3836d3001600]]
+i:  4
+7d0000007d001700
+[[CanalystMessage ID=0x300 TS=0x3371ec2 Data=7d0000007d001700]]
+i:  5
+No data received
+[[]]
+i:  6
+No data received
+[[]]
+i:  7
+No data received
+[[]]
+i:  8
+No data received
+[[]]
+i:  9
+No data received
+[[]]
+i:  10
+No data received
+[[]]
+i:  11
+No data received
+[[]]
+i:  12
+No data received
+[[]]
+i:  13
+No data received
+[[]]
+i:  14
+No data received
+[[]]
+i:  15
+No data received
+[[]]
+i:  16
+No data received
+[[]]
+i:  17
+No data received
+[[]]
+i:  18
+No data received
+[[]]
+i:  19
+No data received
+[[]]
+i:  20
+No data received
+[[]]
+i:  21
+No data received
+[[]]
+i:  22
+No data received
+[[]]
+i:  23
+No data received
+[[]]
+i:  24
+No data received
+[[]]
+i:  25
+No data received
+[[]]
+i:  26
+No data received
+[[]]
+i:  27
+No data received
+[[]]
+i:  28
+No data received
+[[]]
+i:  29
+No data received
+[[]]
+i:  30
+No data received
+[[]]
+i:  31
+No data received
+[[]]
+i:  32
+No data received
+[[]]
+i:  33
+No data received
+[[]]
+i:  34
+No data received
+[[]]
+i:  35
+No data received
+[[]]
+i:  36
+No data received
+[[]]
+i:  37
+No data received
+[[]]
+i:  38
+No data received
+[[]]
+i:  39
+No data received
+[[]]
+i:  40
+No data received
+[[]]
+i:  41
+No data received
+[[]]
+i:  42
+No data received
+[[]]
+i:  43
+No data received
+[[]]
+i:  44
+No data received
+[[]]
+i:  45
+No data received
+[[]]
+Original message:  {"dht_temp":48.0,"dht_hum":28.8,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":27.86}
+Reconstructed message:  {"dht_temp":48.0,"dht_hum":28.8,"ccs811_co2":400.0,"ccs811_tvoc":0.0,"ccs811_temp":27.86}
